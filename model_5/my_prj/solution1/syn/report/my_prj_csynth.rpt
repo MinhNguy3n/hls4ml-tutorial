@@ -1,0 +1,304 @@
+
+
+================================================================
+== Vitis HLS Report for 'my_prj'
+================================================================
+* Date:           Tue Mar 11 16:17:39 2025
+
+* Version:        2024.2 (Build 5238294 on Nov  8 2024)
+* Project:        my_prj
+* Solution:       solution1 (Vivado IP Flow Target)
+* Product family: zynq
+* Target device:  xc7z020-clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+---------+----------+------------+
+    |  Clock |  Target | Estimated| Uncertainty|
+    +--------+---------+----------+------------+
+    |ap_clk  |  5.00 ns|  3.645 ns|     1.35 ns|
+    +--------+---------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+-----------+-----------+-----+-----+---------+
+    |  Latency (cycles) |   Latency (absolute)  |  Interval | Pipeline|
+    |   min   |   max   |    min    |    max    | min | max |   Type  |
+    +---------+---------+-----------+-----------+-----+-----+---------+
+    |       16|       16|  80.000 ns|  80.000 ns|    1|    1|      yes|
+    +---------+---------+-----------+-----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        +----------------------------------------------------------------------+-----------------------------------------------------------+---------+---------+-----------+-----------+-----+-----+---------+
+        |                                                                      |                                                           |  Latency (cycles) |   Latency (absolute)  |  Interval | Pipeline|
+        |                               Instance                               |                           Module                          |   min   |   max   |    min    |    max    | min | max |   Type  |
+        +----------------------------------------------------------------------+-----------------------------------------------------------+---------+---------+-----------+-----------+-----+-----+---------+
+        |grp_tree_scores_fu_193                                                |tree_scores                                                |        9|        9|  45.000 ns|  45.000 ns|    1|    1|      yes|
+        |grp_reduce_ap_fixed_18_8_5_3_0_25_OpAdd_ap_fixed_18_8_5_3_0_s_fu_227  |reduce_ap_fixed_18_8_5_3_0_25_OpAdd_ap_fixed_18_8_5_3_0_s  |        4|        4|  20.000 ns|  20.000 ns|    1|    1|      yes|
+        |grp_reduce_ap_fixed_18_8_5_3_0_25_OpAdd_ap_fixed_18_8_5_3_0_s_fu_257  |reduce_ap_fixed_18_8_5_3_0_25_OpAdd_ap_fixed_18_8_5_3_0_s  |        4|        4|  20.000 ns|  20.000 ns|    1|    1|      yes|
+        |grp_reduce_ap_fixed_18_8_5_3_0_25_OpAdd_ap_fixed_18_8_5_3_0_s_fu_287  |reduce_ap_fixed_18_8_5_3_0_25_OpAdd_ap_fixed_18_8_5_3_0_s  |        4|        4|  20.000 ns|  20.000 ns|    1|    1|      yes|
+        |grp_reduce_ap_fixed_18_8_5_3_0_25_OpAdd_ap_fixed_18_8_5_3_0_s_fu_317  |reduce_ap_fixed_18_8_5_3_0_25_OpAdd_ap_fixed_18_8_5_3_0_s  |        4|        4|  20.000 ns|  20.000 ns|    1|    1|      yes|
+        |grp_reduce_ap_fixed_18_8_5_3_0_25_OpAdd_ap_fixed_18_8_5_3_0_s_fu_347  |reduce_ap_fixed_18_8_5_3_0_25_OpAdd_ap_fixed_18_8_5_3_0_s  |        4|        4|  20.000 ns|  20.000 ns|    1|    1|      yes|
+        +----------------------------------------------------------------------+-----------------------------------------------------------+---------+---------+-----------+-----------+-----+-----+---------+
+
+        * Loop: 
+        N/A
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-----+--------+--------+-----+
+|       Name      | BRAM_18K| DSP |   FF   |   LUT  | URAM|
++-----------------+---------+-----+--------+--------+-----+
+|DSP              |        -|    -|       -|       -|    -|
+|Expression       |        -|    -|       0|       2|    -|
+|FIFO             |        -|    -|       -|       -|    -|
+|Instance         |        -|    -|  228205|  245528|    -|
+|Memory           |        -|    -|       -|       -|    -|
+|Multiplexer      |        -|    -|       -|       -|    -|
+|Register         |        -|    -|    2267|       -|    -|
++-----------------+---------+-----+--------+--------+-----+
+|Total            |        0|    0|  230472|  245530|    0|
++-----------------+---------+-----+--------+--------+-----+
+|Available        |      280|  220|  106400|   53200|    0|
++-----------------+---------+-----+--------+--------+-----+
+|Utilization (%)  |        0|    0|     216|     461|    0|
++-----------------+---------+-----+--------+--------+-----+
+
++ Detail: 
+    * Instance: 
+    +----------------------------------------------------------------------+-----------------------------------------------------------+---------+----+--------+--------+-----+
+    |                               Instance                               |                           Module                          | BRAM_18K| DSP|   FF   |   LUT  | URAM|
+    +----------------------------------------------------------------------+-----------------------------------------------------------+---------+----+--------+--------+-----+
+    |grp_reduce_ap_fixed_18_8_5_3_0_25_OpAdd_ap_fixed_18_8_5_3_0_s_fu_227  |reduce_ap_fixed_18_8_5_3_0_25_OpAdd_ap_fixed_18_8_5_3_0_s  |        0|   0|    1009|     614|    0|
+    |grp_reduce_ap_fixed_18_8_5_3_0_25_OpAdd_ap_fixed_18_8_5_3_0_s_fu_257  |reduce_ap_fixed_18_8_5_3_0_25_OpAdd_ap_fixed_18_8_5_3_0_s  |        0|   0|    1009|     614|    0|
+    |grp_reduce_ap_fixed_18_8_5_3_0_25_OpAdd_ap_fixed_18_8_5_3_0_s_fu_287  |reduce_ap_fixed_18_8_5_3_0_25_OpAdd_ap_fixed_18_8_5_3_0_s  |        0|   0|    1009|     614|    0|
+    |grp_reduce_ap_fixed_18_8_5_3_0_25_OpAdd_ap_fixed_18_8_5_3_0_s_fu_317  |reduce_ap_fixed_18_8_5_3_0_25_OpAdd_ap_fixed_18_8_5_3_0_s  |        0|   0|    1009|     614|    0|
+    |grp_reduce_ap_fixed_18_8_5_3_0_25_OpAdd_ap_fixed_18_8_5_3_0_s_fu_347  |reduce_ap_fixed_18_8_5_3_0_25_OpAdd_ap_fixed_18_8_5_3_0_s  |        0|   0|    1009|     614|    0|
+    |grp_tree_scores_fu_193                                                |tree_scores                                                |        0|   0|  223160|  242458|    0|
+    +----------------------------------------------------------------------+-----------------------------------------------------------+---------+----+--------+--------+-----+
+    |Total                                                                 |                                                           |        0|   0|  228205|  245528|    0|
+    +----------------------------------------------------------------------+-----------------------------------------------------------+---------+----+--------+--------+-----+
+
+    * DSP: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +---------------+----------+----+---+----+------------+------------+
+    | Variable Name | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +---------------+----------+----+---+----+------------+------------+
+    |ap_enable_pp0  |       xor|   0|  0|   2|           1|           2|
+    +---------------+----------+----+---+----+------------+------------+
+    |Total          |          |   0|  0|   2|           1|           2|
+    +---------------+----------+----+---+----+------------+------------+
+
+    * Multiplexer: 
+    N/A
+
+    * Register: 
+    +--------------------------+----+----+-----+-----------+
+    |           Name           | FF | LUT| Bits| Const Bits|
+    +--------------------------+----+----+-----+-----------+
+    |ap_CS_fsm                 |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter1   |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter10  |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter11  |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter12  |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter13  |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter14  |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter15  |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter16  |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter2   |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter3   |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter4   |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter5   |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter6   |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter7   |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter8   |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter9   |   1|   0|    1|          0|
+    |scores_100_reg_1452       |  18|   0|   18|          0|
+    |scores_101_reg_1457       |  18|   0|   18|          0|
+    |scores_102_reg_1462       |  18|   0|   18|          0|
+    |scores_103_reg_1467       |  18|   0|   18|          0|
+    |scores_104_reg_1472       |  18|   0|   18|          0|
+    |scores_105_reg_1477       |  18|   0|   18|          0|
+    |scores_106_reg_1482       |  18|   0|   18|          0|
+    |scores_107_reg_1487       |  18|   0|   18|          0|
+    |scores_108_reg_1492       |  18|   0|   18|          0|
+    |scores_109_reg_1497       |  18|   0|   18|          0|
+    |scores_10_reg_1002        |  18|   0|   18|          0|
+    |scores_110_reg_1502       |  18|   0|   18|          0|
+    |scores_111_reg_1507       |  18|   0|   18|          0|
+    |scores_112_reg_1512       |  18|   0|   18|          0|
+    |scores_113_reg_1517       |  18|   0|   18|          0|
+    |scores_114_reg_1522       |  18|   0|   18|          0|
+    |scores_115_reg_1527       |  18|   0|   18|          0|
+    |scores_116_reg_1532       |  18|   0|   18|          0|
+    |scores_117_reg_1537       |  18|   0|   18|          0|
+    |scores_118_reg_1542       |  18|   0|   18|          0|
+    |scores_119_reg_1547       |  18|   0|   18|          0|
+    |scores_11_reg_1007        |  18|   0|   18|          0|
+    |scores_120_reg_1552       |  18|   0|   18|          0|
+    |scores_121_reg_1557       |  18|   0|   18|          0|
+    |scores_122_reg_1562       |  18|   0|   18|          0|
+    |scores_123_reg_1567       |  18|   0|   18|          0|
+    |scores_124_reg_1572       |  18|   0|   18|          0|
+    |scores_12_reg_1012        |  18|   0|   18|          0|
+    |scores_13_reg_1017        |  18|   0|   18|          0|
+    |scores_14_reg_1022        |  18|   0|   18|          0|
+    |scores_15_reg_1027        |  18|   0|   18|          0|
+    |scores_16_reg_1032        |  18|   0|   18|          0|
+    |scores_17_reg_1037        |  18|   0|   18|          0|
+    |scores_18_reg_1042        |  18|   0|   18|          0|
+    |scores_19_reg_1047        |  18|   0|   18|          0|
+    |scores_1_reg_957          |  18|   0|   18|          0|
+    |scores_20_reg_1052        |  18|   0|   18|          0|
+    |scores_21_reg_1057        |  18|   0|   18|          0|
+    |scores_22_reg_1062        |  18|   0|   18|          0|
+    |scores_23_reg_1067        |  18|   0|   18|          0|
+    |scores_24_reg_1072        |  18|   0|   18|          0|
+    |scores_25_reg_1077        |  18|   0|   18|          0|
+    |scores_26_reg_1082        |  18|   0|   18|          0|
+    |scores_27_reg_1087        |  18|   0|   18|          0|
+    |scores_28_reg_1092        |  18|   0|   18|          0|
+    |scores_29_reg_1097        |  18|   0|   18|          0|
+    |scores_2_reg_962          |  18|   0|   18|          0|
+    |scores_30_reg_1102        |  18|   0|   18|          0|
+    |scores_31_reg_1107        |  18|   0|   18|          0|
+    |scores_32_reg_1112        |  18|   0|   18|          0|
+    |scores_33_reg_1117        |  18|   0|   18|          0|
+    |scores_34_reg_1122        |  18|   0|   18|          0|
+    |scores_35_reg_1127        |  18|   0|   18|          0|
+    |scores_36_reg_1132        |  18|   0|   18|          0|
+    |scores_37_reg_1137        |  18|   0|   18|          0|
+    |scores_38_reg_1142        |  18|   0|   18|          0|
+    |scores_39_reg_1147        |  18|   0|   18|          0|
+    |scores_3_reg_967          |  18|   0|   18|          0|
+    |scores_40_reg_1152        |  18|   0|   18|          0|
+    |scores_41_reg_1157        |  18|   0|   18|          0|
+    |scores_42_reg_1162        |  18|   0|   18|          0|
+    |scores_43_reg_1167        |  18|   0|   18|          0|
+    |scores_44_reg_1172        |  18|   0|   18|          0|
+    |scores_45_reg_1177        |  18|   0|   18|          0|
+    |scores_46_reg_1182        |  18|   0|   18|          0|
+    |scores_47_reg_1187        |  18|   0|   18|          0|
+    |scores_48_reg_1192        |  18|   0|   18|          0|
+    |scores_49_reg_1197        |  18|   0|   18|          0|
+    |scores_4_reg_972          |  18|   0|   18|          0|
+    |scores_50_reg_1202        |  18|   0|   18|          0|
+    |scores_51_reg_1207        |  18|   0|   18|          0|
+    |scores_52_reg_1212        |  18|   0|   18|          0|
+    |scores_53_reg_1217        |  18|   0|   18|          0|
+    |scores_54_reg_1222        |  18|   0|   18|          0|
+    |scores_55_reg_1227        |  18|   0|   18|          0|
+    |scores_56_reg_1232        |  18|   0|   18|          0|
+    |scores_57_reg_1237        |  18|   0|   18|          0|
+    |scores_58_reg_1242        |  18|   0|   18|          0|
+    |scores_59_reg_1247        |  18|   0|   18|          0|
+    |scores_5_reg_977          |  18|   0|   18|          0|
+    |scores_60_reg_1252        |  18|   0|   18|          0|
+    |scores_61_reg_1257        |  18|   0|   18|          0|
+    |scores_62_reg_1262        |  18|   0|   18|          0|
+    |scores_63_reg_1267        |  18|   0|   18|          0|
+    |scores_64_reg_1272        |  18|   0|   18|          0|
+    |scores_65_reg_1277        |  18|   0|   18|          0|
+    |scores_66_reg_1282        |  18|   0|   18|          0|
+    |scores_67_reg_1287        |  18|   0|   18|          0|
+    |scores_68_reg_1292        |  18|   0|   18|          0|
+    |scores_69_reg_1297        |  18|   0|   18|          0|
+    |scores_6_reg_982          |  18|   0|   18|          0|
+    |scores_70_reg_1302        |  18|   0|   18|          0|
+    |scores_71_reg_1307        |  18|   0|   18|          0|
+    |scores_72_reg_1312        |  18|   0|   18|          0|
+    |scores_73_reg_1317        |  18|   0|   18|          0|
+    |scores_74_reg_1322        |  18|   0|   18|          0|
+    |scores_75_reg_1327        |  18|   0|   18|          0|
+    |scores_76_reg_1332        |  18|   0|   18|          0|
+    |scores_77_reg_1337        |  18|   0|   18|          0|
+    |scores_78_reg_1342        |  18|   0|   18|          0|
+    |scores_79_reg_1347        |  18|   0|   18|          0|
+    |scores_7_reg_987          |  18|   0|   18|          0|
+    |scores_80_reg_1352        |  18|   0|   18|          0|
+    |scores_81_reg_1357        |  18|   0|   18|          0|
+    |scores_82_reg_1362        |  18|   0|   18|          0|
+    |scores_83_reg_1367        |  18|   0|   18|          0|
+    |scores_84_reg_1372        |  18|   0|   18|          0|
+    |scores_85_reg_1377        |  18|   0|   18|          0|
+    |scores_86_reg_1382        |  18|   0|   18|          0|
+    |scores_87_reg_1387        |  18|   0|   18|          0|
+    |scores_88_reg_1392        |  18|   0|   18|          0|
+    |scores_89_reg_1397        |  18|   0|   18|          0|
+    |scores_8_reg_992          |  18|   0|   18|          0|
+    |scores_90_reg_1402        |  18|   0|   18|          0|
+    |scores_91_reg_1407        |  18|   0|   18|          0|
+    |scores_92_reg_1412        |  18|   0|   18|          0|
+    |scores_93_reg_1417        |  18|   0|   18|          0|
+    |scores_94_reg_1422        |  18|   0|   18|          0|
+    |scores_95_reg_1427        |  18|   0|   18|          0|
+    |scores_96_reg_1432        |  18|   0|   18|          0|
+    |scores_97_reg_1437        |  18|   0|   18|          0|
+    |scores_98_reg_1442        |  18|   0|   18|          0|
+    |scores_99_reg_1447        |  18|   0|   18|          0|
+    |scores_9_reg_997          |  18|   0|   18|          0|
+    |scores_reg_952            |  18|   0|   18|          0|
+    +--------------------------+----+----+-----+-----------+
+    |Total                     |2267|   0| 2267|          0|
+    +--------------------------+----+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++----------------+-----+-----+------------+--------------+--------------+
+|    RTL Ports   | Dir | Bits|  Protocol  | Source Object|    C Type    |
++----------------+-----+-----+------------+--------------+--------------+
+|ap_clk          |   in|    1|  ap_ctrl_hs|        my_prj|  return value|
+|ap_rst          |   in|    1|  ap_ctrl_hs|        my_prj|  return value|
+|ap_start        |   in|    1|  ap_ctrl_hs|        my_prj|  return value|
+|ap_done         |  out|    1|  ap_ctrl_hs|        my_prj|  return value|
+|ap_idle         |  out|    1|  ap_ctrl_hs|        my_prj|  return value|
+|ap_ready        |  out|    1|  ap_ctrl_hs|        my_prj|  return value|
+|x_0             |   in|   18|     ap_none|           x_0|       pointer|
+|x_1             |   in|   18|     ap_none|           x_1|       pointer|
+|x_2             |   in|   18|     ap_none|           x_2|       pointer|
+|x_3             |   in|   18|     ap_none|           x_3|       pointer|
+|x_4             |   in|   18|     ap_none|           x_4|       pointer|
+|x_5             |   in|   18|     ap_none|           x_5|       pointer|
+|x_6             |   in|   18|     ap_none|           x_6|       pointer|
+|x_7             |   in|   18|     ap_none|           x_7|       pointer|
+|x_8             |   in|   18|     ap_none|           x_8|       pointer|
+|x_9             |   in|   18|     ap_none|           x_9|       pointer|
+|x_10            |   in|   18|     ap_none|          x_10|       pointer|
+|x_11            |   in|   18|     ap_none|          x_11|       pointer|
+|x_12            |   in|   18|     ap_none|          x_12|       pointer|
+|x_13            |   in|   18|     ap_none|          x_13|       pointer|
+|x_14            |   in|   18|     ap_none|          x_14|       pointer|
+|x_15            |   in|   18|     ap_none|          x_15|       pointer|
+|score_0         |  out|   18|      ap_vld|       score_0|       pointer|
+|score_0_ap_vld  |  out|    1|      ap_vld|       score_0|       pointer|
+|score_1         |  out|   18|      ap_vld|       score_1|       pointer|
+|score_1_ap_vld  |  out|    1|      ap_vld|       score_1|       pointer|
+|score_2         |  out|   18|      ap_vld|       score_2|       pointer|
+|score_2_ap_vld  |  out|    1|      ap_vld|       score_2|       pointer|
+|score_3         |  out|   18|      ap_vld|       score_3|       pointer|
+|score_3_ap_vld  |  out|    1|      ap_vld|       score_3|       pointer|
+|score_4         |  out|   18|      ap_vld|       score_4|       pointer|
+|score_4_ap_vld  |  out|    1|      ap_vld|       score_4|       pointer|
++----------------+-----+-----+------------+--------------+--------------+
+

@@ -1,0 +1,748 @@
+---
+MainSourceFile:  /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+Diagnostics:     
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_676_1:  '
+    FileOffset:      676
+    FilePath:        /tools/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          1012205
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_676_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_690_1:  '
+    FileOffset:      690
+    FilePath:        /tools/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          1012675
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_690_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_704_1:  '
+    FileOffset:      704
+    FilePath:        /tools/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          1013146
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_704_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1248_1:  '
+    FileOffset:      1248
+    FilePath:        /tools/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/ap_fixed_base.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          1296786
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1248_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_27_1:  '
+    FileOffset:      27
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_types.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          1670936
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_27_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_40_1:  '
+    FileOffset:      40
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_types.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          1671311
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_40_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_265_1:  '
+    FileOffset:      265
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2349479
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_265_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_275_1:  '
+    FileOffset:      275
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2349866
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_275_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_286_1:  '
+    FileOffset:      286
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2350201
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_286_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_293_1:  '
+    FileOffset:      293
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2350424
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_293_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_295_2:  '
+    FileOffset:      295
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2350519
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_295_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_307_1:  '
+    FileOffset:      307
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2350883
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_307_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_309_2:  '
+    FileOffset:      309
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2350965
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_309_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_324_1:  '
+    FileOffset:      324
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2351308
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_324_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_344_1:  '
+    FileOffset:      344
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2351761
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_344_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_345_2:  '
+    FileOffset:      345
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2351806
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_345_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_360_1:  '
+    FileOffset:      360
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2352215
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_360_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_367_1:  '
+    FileOffset:      367
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2352428
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_367_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_136_1:  '
+    FileOffset:      136
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_conv1d_latency.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2361937
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_136_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_137_2:  '
+    FileOffset:      137
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_conv1d_latency.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2362021
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_137_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_158_3:  '
+    FileOffset:      158
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_conv1d_latency.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2362563
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_158_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_159_4:  '
+    FileOffset:      159
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_conv1d_latency.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2362647
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_159_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_31_1:  '
+    FileOffset:      31
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2371579
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_31_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_43_1:  '
+    FileOffset:      43
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2371832
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_43_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_57_1:  '
+    FileOffset:      57
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2372193
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_57_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_84_1:  '
+    FileOffset:      84
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2373009
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_84_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_114_1:  '
+    FileOffset:      114
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2373670
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_114_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_151_1:  '
+    FileOffset:      151
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2374804
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_151_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_162_1:  '
+    FileOffset:      162
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2375166
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_162_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_195_1:  '
+    FileOffset:      195
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2376069
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_195_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_209_2:  '
+    FileOffset:      209
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2376588
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_209_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_243_1:  '
+    FileOffset:      243
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2377428
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_243_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_252_2:  '
+    FileOffset:      252
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2377698
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_252_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_266_3:  '
+    FileOffset:      266
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2378222
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_266_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_273_1:  '
+    FileOffset:      273
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2378456
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_273_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_286_1:  '
+    FileOffset:      286
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2378816
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_286_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_323_1:  '
+    FileOffset:      323
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2379745
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_323_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_328_2:  '
+    FileOffset:      328
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2379862
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_328_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_329_3:  '
+    FileOffset:      329
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2379916
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_329_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_346_4:  '
+    FileOffset:      346
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2380497
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_346_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_359_1:  '
+    FileOffset:      359
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2380984
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_359_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_367_2:  '
+    FileOffset:      367
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2381125
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_367_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_402_1:  '
+    FileOffset:      402
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2382090
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_402_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_432_1:  '
+    FileOffset:      432
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2382727
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_432_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_459_1:  '
+    FileOffset:      459
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2383563
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_459_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_473_1:  '
+    FileOffset:      473
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2383905
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_473_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_489_1:  '
+    FileOffset:      489
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2384363
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_489_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_507_1:  '
+    FileOffset:      507
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2384833
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_507_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_524_1:  '
+    FileOffset:      524
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2385236
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_524_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_541_1:  '
+    FileOffset:      541
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2385631
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_541_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_571_1:  '
+    FileOffset:      571
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2386297
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_571_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_590_1:  '
+    FileOffset:      590
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2386871
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_590_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_620_1:  '
+    FileOffset:      620
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2387537
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_620_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_639_1:  '
+    FileOffset:      639
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2388091
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_639_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_669_1:  '
+    FileOffset:      669
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2388740
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_669_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_696_1:  '
+    FileOffset:      696
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2389578
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_696_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_725_1:  '
+    FileOffset:      725
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2390196
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_725_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_746_1:  '
+    FileOffset:      746
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2390823
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_746_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_764_1:  '
+    FileOffset:      764
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2391212
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_764_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_784_1:  '
+    FileOffset:      784
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2391608
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_784_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_73_1:  '
+    FileOffset:      73
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2393684
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_73_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_80_2:  '
+    FileOffset:      80
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2393824
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_80_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_89_3:  '
+    FileOffset:      89
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2394089
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_89_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_98_4:  '
+    FileOffset:      98
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2394283
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_98_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_102_5:  '
+    FileOffset:      102
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2394376
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_102_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_113_6:  '
+    FileOffset:      113
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2394702
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_113_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_117_7:  '
+    FileOffset:      117
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2394812
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_117_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_141_1:  '
+    FileOffset:      141
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2395778
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_141_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_145_2:  '
+    FileOffset:      145
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2395864
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_145_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_164_1:  '
+    FileOffset:      164
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2396540
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_164_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_187_1:  '
+    FileOffset:      187
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2397472
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_187_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_190_2:  '
+    FileOffset:      190
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2397610
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_190_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_195_3:  '
+    FileOffset:      195
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2397760
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_195_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_199_4:  '
+    FileOffset:      199
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2397884
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_199_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_213_1:  '
+    FileOffset:      213
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_activation_stream.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2403719
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_213_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_222_2:  '
+    FileOffset:      222
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_activation_stream.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2404003
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_222_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_328_1:  '
+    FileOffset:      328
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_activation_stream.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2407216
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_328_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_333_2:  '
+    FileOffset:      333
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_activation_stream.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2407358
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_333_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_341_3:  '
+    FileOffset:      341
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_activation_stream.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2407562
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_341_3: '
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      33
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_dense_resource.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      107
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_dense_resource.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      189
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_dense_resource.h
+    Replacements:    
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_14_1:  '
+    FileOffset:      14
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_dense_compressed.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2433818
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_14_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_74_1:  '
+    FileOffset:      74
+    FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/firmware/nnet_utils/nnet_dense_compressed.h
+    Replacements:    
+      - FilePath:        /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_3.1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2435689
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_74_1: '
+...

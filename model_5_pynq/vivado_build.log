@@ -1,0 +1,29 @@
+
+****** Vivado v2024.2 (64-bit)
+  **** SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+  **** IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+  **** SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+  **** Start of session at: Tue Mar 11 16:25:09 2025
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+Sourcing tcl script '/home/minh/.Xilinx/Vivado/2024.2/Vivado_init.tcl'
+Sourcing tcl script '/home/minh/.Xilinx/Vivado/Vivado_init.tcl'
+INFO: [Common 17-1463] Init.tcl in /home/minh/.Xilinx/Vivado/2024.2/init.tcl is not used. Vivado_init.tcl is already sourced.
+INFO: [Common 17-1463] Init.tcl in /home/minh/.Xilinx/Vivado/init.tcl is not used. Vivado_init.tcl is already sourced.
+source build_bit.tcl
+# set tcldir [file dirname [info script]]
+# source [file join $tcldir accelerator_parameters.tcl]
+## set prj_name conifer_jettag
+## set part xc7z020clg400-1
+## set board_part digilentinc.com:pynq-z1:part0:1.0
+## set processing_system_ip xilinx.com:ip:processing_system7:5.5
+## set processing_system processing_system7
+## set ps_s_axi_port S_AXI_HP0
+## set ps_m_axi_port M_AXI_GP0
+## set top conifer_jettag_accelerator
+## set ip_name conifer_conifer_jettag
+## set version 1.5
+# create_project project_1 ${prj_name}_vivado -part ${part} -force
+# set_property board_part ${board_part} [current_project]
+INFO: [Common 17-206] Exiting Vivado at Tue Mar 11 16:25:16 2025...

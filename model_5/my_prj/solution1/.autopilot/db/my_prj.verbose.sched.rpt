@@ -1,0 +1,468 @@
+
+
+================================================================
+== Vitis HLS Report for 'my_prj'
+================================================================
+* Date:           Tue Mar 11 16:16:50 2025
+
+* Version:        2024.2 (Build 5238294 on Nov  8 2024)
+* Project:        my_prj
+* Solution:       solution1 (Vivado IP Flow Target)
+* Product family: zynq
+* Target device:  xc7z020-clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+---------+----------+------------+
+    |  Clock |  Target | Estimated| Uncertainty|
+    +--------+---------+----------+------------+
+    |ap_clk  |  5.00 ns|  3.645 ns|     1.35 ns|
+    +--------+---------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+-----------+-----------+-----+-----+---------+
+    |  Latency (cycles) |   Latency (absolute)  |  Interval | Pipeline|
+    |   min   |   max   |    min    |    max    | min | max |   Type  |
+    +---------+---------+-----------+-----------+-----+-----+---------+
+    |       16|       16|  80.000 ns|  80.000 ns|    1|    1|      yes|
+    +---------+---------+-----------+-----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 1
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 2
+HasVarLatency: 0
+IsPipeline: 1
+IsRtlPipelined: 1
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
++ Individual pipeline summary: 
+  * Pipeline-0: initiation interval (II) = 1, depth = 17
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 17
+* Pipeline : 1
+  Pipeline-0 : II = 1, D = 17, States = { 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 }
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 2 
+2 --> 3 
+3 --> 4 
+4 --> 5 
+5 --> 6 
+6 --> 7 
+7 --> 8 
+8 --> 9 
+9 --> 10 
+10 --> 11 
+11 --> 12 
+12 --> 13 
+13 --> 14 
+14 --> 15 
+15 --> 16 
+16 --> 17 
+17 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 3.11>
+ST_1 : Operation 18 [1/1] (0.00ns)   --->   "%x_0_read = read i18 @_ssdm_op_Read.ap_auto.i18P0A, i18 %x_0"   --->   Operation 18 'read' 'x_0_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 19 [1/1] (0.00ns)   --->   "%x_1_read = read i18 @_ssdm_op_Read.ap_auto.i18P0A, i18 %x_1"   --->   Operation 19 'read' 'x_1_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 20 [1/1] (0.00ns)   --->   "%x_2_read = read i18 @_ssdm_op_Read.ap_auto.i18P0A, i18 %x_2"   --->   Operation 20 'read' 'x_2_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 21 [1/1] (0.00ns)   --->   "%x_3_read = read i18 @_ssdm_op_Read.ap_auto.i18P0A, i18 %x_3"   --->   Operation 21 'read' 'x_3_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 22 [1/1] (0.00ns)   --->   "%x_4_read = read i18 @_ssdm_op_Read.ap_auto.i18P0A, i18 %x_4"   --->   Operation 22 'read' 'x_4_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 23 [1/1] (0.00ns)   --->   "%x_5_read = read i18 @_ssdm_op_Read.ap_auto.i18P0A, i18 %x_5"   --->   Operation 23 'read' 'x_5_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 24 [1/1] (0.00ns)   --->   "%x_6_read = read i18 @_ssdm_op_Read.ap_auto.i18P0A, i18 %x_6"   --->   Operation 24 'read' 'x_6_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 25 [1/1] (0.00ns)   --->   "%x_7_read = read i18 @_ssdm_op_Read.ap_auto.i18P0A, i18 %x_7"   --->   Operation 25 'read' 'x_7_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 26 [1/1] (0.00ns)   --->   "%x_9_read = read i18 @_ssdm_op_Read.ap_auto.i18P0A, i18 %x_9"   --->   Operation 26 'read' 'x_9_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 27 [1/1] (0.00ns)   --->   "%x_10_read = read i18 @_ssdm_op_Read.ap_auto.i18P0A, i18 %x_10"   --->   Operation 27 'read' 'x_10_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 28 [1/1] (0.00ns)   --->   "%x_11_read = read i18 @_ssdm_op_Read.ap_auto.i18P0A, i18 %x_11"   --->   Operation 28 'read' 'x_11_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 29 [1/1] (0.00ns)   --->   "%x_12_read = read i18 @_ssdm_op_Read.ap_auto.i18P0A, i18 %x_12"   --->   Operation 29 'read' 'x_12_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 30 [1/1] (0.00ns)   --->   "%x_13_read = read i18 @_ssdm_op_Read.ap_auto.i18P0A, i18 %x_13"   --->   Operation 30 'read' 'x_13_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 31 [1/1] (0.00ns)   --->   "%x_14_read = read i18 @_ssdm_op_Read.ap_auto.i18P0A, i18 %x_14"   --->   Operation 31 'read' 'x_14_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 32 [1/1] (0.00ns)   --->   "%x_15_read = read i18 @_ssdm_op_Read.ap_auto.i18P0A, i18 %x_15"   --->   Operation 32 'read' 'x_15_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 33 [11/11] (3.11ns)   --->   "%call_ret = call i2250 @tree_scores, i18 %x_0_read, i18 %x_1_read, i18 %x_2_read, i18 %x_3_read, i18 %x_4_read, i18 %x_5_read, i18 %x_6_read, i18 %x_7_read, i18 %x_9_read, i18 %x_10_read, i18 %x_11_read, i18 %x_12_read, i18 %x_13_read, i18 %x_14_read, i18 %x_15_read" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 33 'call' 'call_ret' <Predicate = true> <Delay = 3.11> <CoreType = "Generic">   --->   Generic Core
+
+State 2 <SV = 1> <Delay = 3.64>
+ST_2 : Operation 34 [10/11] (3.64ns)   --->   "%call_ret = call i2250 @tree_scores, i18 %x_0_read, i18 %x_1_read, i18 %x_2_read, i18 %x_3_read, i18 %x_4_read, i18 %x_5_read, i18 %x_6_read, i18 %x_7_read, i18 %x_9_read, i18 %x_10_read, i18 %x_11_read, i18 %x_12_read, i18 %x_13_read, i18 %x_14_read, i18 %x_15_read" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 34 'call' 'call_ret' <Predicate = true> <Delay = 3.64> <CoreType = "Generic">   --->   Generic Core
+
+State 3 <SV = 2> <Delay = 3.64>
+ST_3 : Operation 35 [9/11] (3.64ns)   --->   "%call_ret = call i2250 @tree_scores, i18 %x_0_read, i18 %x_1_read, i18 %x_2_read, i18 %x_3_read, i18 %x_4_read, i18 %x_5_read, i18 %x_6_read, i18 %x_7_read, i18 %x_9_read, i18 %x_10_read, i18 %x_11_read, i18 %x_12_read, i18 %x_13_read, i18 %x_14_read, i18 %x_15_read" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 35 'call' 'call_ret' <Predicate = true> <Delay = 3.64> <CoreType = "Generic">   --->   Generic Core
+
+State 4 <SV = 3> <Delay = 3.64>
+ST_4 : Operation 36 [8/11] (3.64ns)   --->   "%call_ret = call i2250 @tree_scores, i18 %x_0_read, i18 %x_1_read, i18 %x_2_read, i18 %x_3_read, i18 %x_4_read, i18 %x_5_read, i18 %x_6_read, i18 %x_7_read, i18 %x_9_read, i18 %x_10_read, i18 %x_11_read, i18 %x_12_read, i18 %x_13_read, i18 %x_14_read, i18 %x_15_read" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 36 'call' 'call_ret' <Predicate = true> <Delay = 3.64> <CoreType = "Generic">   --->   Generic Core
+
+State 5 <SV = 4> <Delay = 3.64>
+ST_5 : Operation 37 [7/11] (3.64ns)   --->   "%call_ret = call i2250 @tree_scores, i18 %x_0_read, i18 %x_1_read, i18 %x_2_read, i18 %x_3_read, i18 %x_4_read, i18 %x_5_read, i18 %x_6_read, i18 %x_7_read, i18 %x_9_read, i18 %x_10_read, i18 %x_11_read, i18 %x_12_read, i18 %x_13_read, i18 %x_14_read, i18 %x_15_read" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 37 'call' 'call_ret' <Predicate = true> <Delay = 3.64> <CoreType = "Generic">   --->   Generic Core
+
+State 6 <SV = 5> <Delay = 3.64>
+ST_6 : Operation 38 [6/11] (3.64ns)   --->   "%call_ret = call i2250 @tree_scores, i18 %x_0_read, i18 %x_1_read, i18 %x_2_read, i18 %x_3_read, i18 %x_4_read, i18 %x_5_read, i18 %x_6_read, i18 %x_7_read, i18 %x_9_read, i18 %x_10_read, i18 %x_11_read, i18 %x_12_read, i18 %x_13_read, i18 %x_14_read, i18 %x_15_read" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 38 'call' 'call_ret' <Predicate = true> <Delay = 3.64> <CoreType = "Generic">   --->   Generic Core
+
+State 7 <SV = 6> <Delay = 3.64>
+ST_7 : Operation 39 [5/11] (3.64ns)   --->   "%call_ret = call i2250 @tree_scores, i18 %x_0_read, i18 %x_1_read, i18 %x_2_read, i18 %x_3_read, i18 %x_4_read, i18 %x_5_read, i18 %x_6_read, i18 %x_7_read, i18 %x_9_read, i18 %x_10_read, i18 %x_11_read, i18 %x_12_read, i18 %x_13_read, i18 %x_14_read, i18 %x_15_read" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 39 'call' 'call_ret' <Predicate = true> <Delay = 3.64> <CoreType = "Generic">   --->   Generic Core
+
+State 8 <SV = 7> <Delay = 3.64>
+ST_8 : Operation 40 [4/11] (3.64ns)   --->   "%call_ret = call i2250 @tree_scores, i18 %x_0_read, i18 %x_1_read, i18 %x_2_read, i18 %x_3_read, i18 %x_4_read, i18 %x_5_read, i18 %x_6_read, i18 %x_7_read, i18 %x_9_read, i18 %x_10_read, i18 %x_11_read, i18 %x_12_read, i18 %x_13_read, i18 %x_14_read, i18 %x_15_read" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 40 'call' 'call_ret' <Predicate = true> <Delay = 3.64> <CoreType = "Generic">   --->   Generic Core
+
+State 9 <SV = 8> <Delay = 3.64>
+ST_9 : Operation 41 [3/11] (3.64ns)   --->   "%call_ret = call i2250 @tree_scores, i18 %x_0_read, i18 %x_1_read, i18 %x_2_read, i18 %x_3_read, i18 %x_4_read, i18 %x_5_read, i18 %x_6_read, i18 %x_7_read, i18 %x_9_read, i18 %x_10_read, i18 %x_11_read, i18 %x_12_read, i18 %x_13_read, i18 %x_14_read, i18 %x_15_read" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 41 'call' 'call_ret' <Predicate = true> <Delay = 3.64> <CoreType = "Generic">   --->   Generic Core
+
+State 10 <SV = 9> <Delay = 3.64>
+ST_10 : Operation 42 [2/11] (3.64ns)   --->   "%call_ret = call i2250 @tree_scores, i18 %x_0_read, i18 %x_1_read, i18 %x_2_read, i18 %x_3_read, i18 %x_4_read, i18 %x_5_read, i18 %x_6_read, i18 %x_7_read, i18 %x_9_read, i18 %x_10_read, i18 %x_11_read, i18 %x_12_read, i18 %x_13_read, i18 %x_14_read, i18 %x_15_read" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 42 'call' 'call_ret' <Predicate = true> <Delay = 3.64> <CoreType = "Generic">   --->   Generic Core
+
+State 11 <SV = 10> <Delay = 3.20>
+ST_11 : Operation 43 [1/11] (3.20ns)   --->   "%call_ret = call i2250 @tree_scores, i18 %x_0_read, i18 %x_1_read, i18 %x_2_read, i18 %x_3_read, i18 %x_4_read, i18 %x_5_read, i18 %x_6_read, i18 %x_7_read, i18 %x_9_read, i18 %x_10_read, i18 %x_11_read, i18 %x_12_read, i18 %x_13_read, i18 %x_14_read, i18 %x_15_read" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 43 'call' 'call_ret' <Predicate = true> <Delay = 3.20> <CoreType = "Generic">   --->   Generic Core
+ST_11 : Operation 44 [1/1] (0.00ns)   --->   "%scores = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 44 'extractvalue' 'scores' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 45 [1/1] (0.00ns)   --->   "%scores_1 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 45 'extractvalue' 'scores_1' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 46 [1/1] (0.00ns)   --->   "%scores_2 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 46 'extractvalue' 'scores_2' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 47 [1/1] (0.00ns)   --->   "%scores_3 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 47 'extractvalue' 'scores_3' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 48 [1/1] (0.00ns)   --->   "%scores_4 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 48 'extractvalue' 'scores_4' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 49 [1/1] (0.00ns)   --->   "%scores_5 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 49 'extractvalue' 'scores_5' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 50 [1/1] (0.00ns)   --->   "%scores_6 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 50 'extractvalue' 'scores_6' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 51 [1/1] (0.00ns)   --->   "%scores_7 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 51 'extractvalue' 'scores_7' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 52 [1/1] (0.00ns)   --->   "%scores_8 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 52 'extractvalue' 'scores_8' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 53 [1/1] (0.00ns)   --->   "%scores_9 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 53 'extractvalue' 'scores_9' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 54 [1/1] (0.00ns)   --->   "%scores_10 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 54 'extractvalue' 'scores_10' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 55 [1/1] (0.00ns)   --->   "%scores_11 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 55 'extractvalue' 'scores_11' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 56 [1/1] (0.00ns)   --->   "%scores_12 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 56 'extractvalue' 'scores_12' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 57 [1/1] (0.00ns)   --->   "%scores_13 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 57 'extractvalue' 'scores_13' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 58 [1/1] (0.00ns)   --->   "%scores_14 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 58 'extractvalue' 'scores_14' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 59 [1/1] (0.00ns)   --->   "%scores_15 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 59 'extractvalue' 'scores_15' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 60 [1/1] (0.00ns)   --->   "%scores_16 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 60 'extractvalue' 'scores_16' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 61 [1/1] (0.00ns)   --->   "%scores_17 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 61 'extractvalue' 'scores_17' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 62 [1/1] (0.00ns)   --->   "%scores_18 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 62 'extractvalue' 'scores_18' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 63 [1/1] (0.00ns)   --->   "%scores_19 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 63 'extractvalue' 'scores_19' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 64 [1/1] (0.00ns)   --->   "%scores_20 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 64 'extractvalue' 'scores_20' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 65 [1/1] (0.00ns)   --->   "%scores_21 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 65 'extractvalue' 'scores_21' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 66 [1/1] (0.00ns)   --->   "%scores_22 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 66 'extractvalue' 'scores_22' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 67 [1/1] (0.00ns)   --->   "%scores_23 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 67 'extractvalue' 'scores_23' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 68 [1/1] (0.00ns)   --->   "%scores_24 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 68 'extractvalue' 'scores_24' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 69 [1/1] (0.00ns)   --->   "%scores_25 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 69 'extractvalue' 'scores_25' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 70 [1/1] (0.00ns)   --->   "%scores_26 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 70 'extractvalue' 'scores_26' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 71 [1/1] (0.00ns)   --->   "%scores_27 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 71 'extractvalue' 'scores_27' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 72 [1/1] (0.00ns)   --->   "%scores_28 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 72 'extractvalue' 'scores_28' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 73 [1/1] (0.00ns)   --->   "%scores_29 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 73 'extractvalue' 'scores_29' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 74 [1/1] (0.00ns)   --->   "%scores_30 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 74 'extractvalue' 'scores_30' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 75 [1/1] (0.00ns)   --->   "%scores_31 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 75 'extractvalue' 'scores_31' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 76 [1/1] (0.00ns)   --->   "%scores_32 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 76 'extractvalue' 'scores_32' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 77 [1/1] (0.00ns)   --->   "%scores_33 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 77 'extractvalue' 'scores_33' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 78 [1/1] (0.00ns)   --->   "%scores_34 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 78 'extractvalue' 'scores_34' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 79 [1/1] (0.00ns)   --->   "%scores_35 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 79 'extractvalue' 'scores_35' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 80 [1/1] (0.00ns)   --->   "%scores_36 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 80 'extractvalue' 'scores_36' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 81 [1/1] (0.00ns)   --->   "%scores_37 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 81 'extractvalue' 'scores_37' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 82 [1/1] (0.00ns)   --->   "%scores_38 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 82 'extractvalue' 'scores_38' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 83 [1/1] (0.00ns)   --->   "%scores_39 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 83 'extractvalue' 'scores_39' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 84 [1/1] (0.00ns)   --->   "%scores_40 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 84 'extractvalue' 'scores_40' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 85 [1/1] (0.00ns)   --->   "%scores_41 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 85 'extractvalue' 'scores_41' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 86 [1/1] (0.00ns)   --->   "%scores_42 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 86 'extractvalue' 'scores_42' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 87 [1/1] (0.00ns)   --->   "%scores_43 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 87 'extractvalue' 'scores_43' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 88 [1/1] (0.00ns)   --->   "%scores_44 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 88 'extractvalue' 'scores_44' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 89 [1/1] (0.00ns)   --->   "%scores_45 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 89 'extractvalue' 'scores_45' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 90 [1/1] (0.00ns)   --->   "%scores_46 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 90 'extractvalue' 'scores_46' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 91 [1/1] (0.00ns)   --->   "%scores_47 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 91 'extractvalue' 'scores_47' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 92 [1/1] (0.00ns)   --->   "%scores_48 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 92 'extractvalue' 'scores_48' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 93 [1/1] (0.00ns)   --->   "%scores_49 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 93 'extractvalue' 'scores_49' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 94 [1/1] (0.00ns)   --->   "%scores_50 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 94 'extractvalue' 'scores_50' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 95 [1/1] (0.00ns)   --->   "%scores_51 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 95 'extractvalue' 'scores_51' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 96 [1/1] (0.00ns)   --->   "%scores_52 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 96 'extractvalue' 'scores_52' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 97 [1/1] (0.00ns)   --->   "%scores_53 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 97 'extractvalue' 'scores_53' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 98 [1/1] (0.00ns)   --->   "%scores_54 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 98 'extractvalue' 'scores_54' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 99 [1/1] (0.00ns)   --->   "%scores_55 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 99 'extractvalue' 'scores_55' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 100 [1/1] (0.00ns)   --->   "%scores_56 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 100 'extractvalue' 'scores_56' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 101 [1/1] (0.00ns)   --->   "%scores_57 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 101 'extractvalue' 'scores_57' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 102 [1/1] (0.00ns)   --->   "%scores_58 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 102 'extractvalue' 'scores_58' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 103 [1/1] (0.00ns)   --->   "%scores_59 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 103 'extractvalue' 'scores_59' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 104 [1/1] (0.00ns)   --->   "%scores_60 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 104 'extractvalue' 'scores_60' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 105 [1/1] (0.00ns)   --->   "%scores_61 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 105 'extractvalue' 'scores_61' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 106 [1/1] (0.00ns)   --->   "%scores_62 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 106 'extractvalue' 'scores_62' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 107 [1/1] (0.00ns)   --->   "%scores_63 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 107 'extractvalue' 'scores_63' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 108 [1/1] (0.00ns)   --->   "%scores_64 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 108 'extractvalue' 'scores_64' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 109 [1/1] (0.00ns)   --->   "%scores_65 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 109 'extractvalue' 'scores_65' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 110 [1/1] (0.00ns)   --->   "%scores_66 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 110 'extractvalue' 'scores_66' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 111 [1/1] (0.00ns)   --->   "%scores_67 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 111 'extractvalue' 'scores_67' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 112 [1/1] (0.00ns)   --->   "%scores_68 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 112 'extractvalue' 'scores_68' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 113 [1/1] (0.00ns)   --->   "%scores_69 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 113 'extractvalue' 'scores_69' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 114 [1/1] (0.00ns)   --->   "%scores_70 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 114 'extractvalue' 'scores_70' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 115 [1/1] (0.00ns)   --->   "%scores_71 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 115 'extractvalue' 'scores_71' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 116 [1/1] (0.00ns)   --->   "%scores_72 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 116 'extractvalue' 'scores_72' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 117 [1/1] (0.00ns)   --->   "%scores_73 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 117 'extractvalue' 'scores_73' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 118 [1/1] (0.00ns)   --->   "%scores_74 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 118 'extractvalue' 'scores_74' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 119 [1/1] (0.00ns)   --->   "%scores_75 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 119 'extractvalue' 'scores_75' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 120 [1/1] (0.00ns)   --->   "%scores_76 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 120 'extractvalue' 'scores_76' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 121 [1/1] (0.00ns)   --->   "%scores_77 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 121 'extractvalue' 'scores_77' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 122 [1/1] (0.00ns)   --->   "%scores_78 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 122 'extractvalue' 'scores_78' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 123 [1/1] (0.00ns)   --->   "%scores_79 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 123 'extractvalue' 'scores_79' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 124 [1/1] (0.00ns)   --->   "%scores_80 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 124 'extractvalue' 'scores_80' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 125 [1/1] (0.00ns)   --->   "%scores_81 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 125 'extractvalue' 'scores_81' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 126 [1/1] (0.00ns)   --->   "%scores_82 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 126 'extractvalue' 'scores_82' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 127 [1/1] (0.00ns)   --->   "%scores_83 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 127 'extractvalue' 'scores_83' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 128 [1/1] (0.00ns)   --->   "%scores_84 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 128 'extractvalue' 'scores_84' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 129 [1/1] (0.00ns)   --->   "%scores_85 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 129 'extractvalue' 'scores_85' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 130 [1/1] (0.00ns)   --->   "%scores_86 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 130 'extractvalue' 'scores_86' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 131 [1/1] (0.00ns)   --->   "%scores_87 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 131 'extractvalue' 'scores_87' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 132 [1/1] (0.00ns)   --->   "%scores_88 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 132 'extractvalue' 'scores_88' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 133 [1/1] (0.00ns)   --->   "%scores_89 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 133 'extractvalue' 'scores_89' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 134 [1/1] (0.00ns)   --->   "%scores_90 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 134 'extractvalue' 'scores_90' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 135 [1/1] (0.00ns)   --->   "%scores_91 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 135 'extractvalue' 'scores_91' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 136 [1/1] (0.00ns)   --->   "%scores_92 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 136 'extractvalue' 'scores_92' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 137 [1/1] (0.00ns)   --->   "%scores_93 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 137 'extractvalue' 'scores_93' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 138 [1/1] (0.00ns)   --->   "%scores_94 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 138 'extractvalue' 'scores_94' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 139 [1/1] (0.00ns)   --->   "%scores_95 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 139 'extractvalue' 'scores_95' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 140 [1/1] (0.00ns)   --->   "%scores_96 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 140 'extractvalue' 'scores_96' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 141 [1/1] (0.00ns)   --->   "%scores_97 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 141 'extractvalue' 'scores_97' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 142 [1/1] (0.00ns)   --->   "%scores_98 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 142 'extractvalue' 'scores_98' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 143 [1/1] (0.00ns)   --->   "%scores_99 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 143 'extractvalue' 'scores_99' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 144 [1/1] (0.00ns)   --->   "%scores_100 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 144 'extractvalue' 'scores_100' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 145 [1/1] (0.00ns)   --->   "%scores_101 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 145 'extractvalue' 'scores_101' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 146 [1/1] (0.00ns)   --->   "%scores_102 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 146 'extractvalue' 'scores_102' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 147 [1/1] (0.00ns)   --->   "%scores_103 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 147 'extractvalue' 'scores_103' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 148 [1/1] (0.00ns)   --->   "%scores_104 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 148 'extractvalue' 'scores_104' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 149 [1/1] (0.00ns)   --->   "%scores_105 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 149 'extractvalue' 'scores_105' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 150 [1/1] (0.00ns)   --->   "%scores_106 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 150 'extractvalue' 'scores_106' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 151 [1/1] (0.00ns)   --->   "%scores_107 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 151 'extractvalue' 'scores_107' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 152 [1/1] (0.00ns)   --->   "%scores_108 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 152 'extractvalue' 'scores_108' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 153 [1/1] (0.00ns)   --->   "%scores_109 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 153 'extractvalue' 'scores_109' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 154 [1/1] (0.00ns)   --->   "%scores_110 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 154 'extractvalue' 'scores_110' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 155 [1/1] (0.00ns)   --->   "%scores_111 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 155 'extractvalue' 'scores_111' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 156 [1/1] (0.00ns)   --->   "%scores_112 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 156 'extractvalue' 'scores_112' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 157 [1/1] (0.00ns)   --->   "%scores_113 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 157 'extractvalue' 'scores_113' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 158 [1/1] (0.00ns)   --->   "%scores_114 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 158 'extractvalue' 'scores_114' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 159 [1/1] (0.00ns)   --->   "%scores_115 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 159 'extractvalue' 'scores_115' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 160 [1/1] (0.00ns)   --->   "%scores_116 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 160 'extractvalue' 'scores_116' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 161 [1/1] (0.00ns)   --->   "%scores_117 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 161 'extractvalue' 'scores_117' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 162 [1/1] (0.00ns)   --->   "%scores_118 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 162 'extractvalue' 'scores_118' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 163 [1/1] (0.00ns)   --->   "%scores_119 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 163 'extractvalue' 'scores_119' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 164 [1/1] (0.00ns)   --->   "%scores_120 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 164 'extractvalue' 'scores_120' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 165 [1/1] (0.00ns)   --->   "%scores_121 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 165 'extractvalue' 'scores_121' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 166 [1/1] (0.00ns)   --->   "%scores_122 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 166 'extractvalue' 'scores_122' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 167 [1/1] (0.00ns)   --->   "%scores_123 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 167 'extractvalue' 'scores_123' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 168 [1/1] (0.00ns)   --->   "%scores_124 = extractvalue i2250 %call_ret" [firmware/BDT.h:139->firmware/my_prj.cpp:10]   --->   Operation 168 'extractvalue' 'scores_124' <Predicate = true> <Delay = 0.00>
+
+State 12 <SV = 11> <Delay = 2.13>
+ST_12 : Operation 169 [6/6] (2.13ns)   --->   "%ref_tmp_i_assign_8 = call i18 @reduce<ap_fixed<18, 8, 5, 3, 0>, 25, OpAdd<ap_fixed<18, 8, 5, 3, 0> > >, i18 %scores, i18 %scores_1, i18 %scores_2, i18 %scores_3, i18 %scores_4, i18 %scores_5, i18 %scores_6, i18 %scores_7, i18 %scores_8, i18 %scores_9, i18 %scores_10, i18 %scores_11, i18 %scores_12, i18 %scores_13, i18 %scores_14, i18 %scores_15, i18 %scores_16, i18 %scores_17, i18 %scores_18, i18 %scores_19, i18 %scores_20, i18 %scores_21, i18 %scores_22, i18 %scores_23, i18 %scores_24" [firmware/BDT.h:146->firmware/my_prj.cpp:10]   --->   Operation 169 'call' 'ref_tmp_i_assign_8' <Predicate = true> <Delay = 2.13> <CoreType = "Generic">   --->   Generic Core
+ST_12 : Operation 170 [6/6] (2.13ns)   --->   "%ref_tmp_i_assign_7 = call i18 @reduce<ap_fixed<18, 8, 5, 3, 0>, 25, OpAdd<ap_fixed<18, 8, 5, 3, 0> > >, i18 %scores_25, i18 %scores_26, i18 %scores_27, i18 %scores_28, i18 %scores_29, i18 %scores_30, i18 %scores_31, i18 %scores_32, i18 %scores_33, i18 %scores_34, i18 %scores_35, i18 %scores_36, i18 %scores_37, i18 %scores_38, i18 %scores_39, i18 %scores_40, i18 %scores_41, i18 %scores_42, i18 %scores_43, i18 %scores_44, i18 %scores_45, i18 %scores_46, i18 %scores_47, i18 %scores_48, i18 %scores_49" [firmware/BDT.h:146->firmware/my_prj.cpp:10]   --->   Operation 170 'call' 'ref_tmp_i_assign_7' <Predicate = true> <Delay = 2.13> <CoreType = "Generic">   --->   Generic Core
+ST_12 : Operation 171 [6/6] (2.13ns)   --->   "%ref_tmp_i_assign_6 = call i18 @reduce<ap_fixed<18, 8, 5, 3, 0>, 25, OpAdd<ap_fixed<18, 8, 5, 3, 0> > >, i18 %scores_50, i18 %scores_51, i18 %scores_52, i18 %scores_53, i18 %scores_54, i18 %scores_55, i18 %scores_56, i18 %scores_57, i18 %scores_58, i18 %scores_59, i18 %scores_60, i18 %scores_61, i18 %scores_62, i18 %scores_63, i18 %scores_64, i18 %scores_65, i18 %scores_66, i18 %scores_67, i18 %scores_68, i18 %scores_69, i18 %scores_70, i18 %scores_71, i18 %scores_72, i18 %scores_73, i18 %scores_74" [firmware/BDT.h:146->firmware/my_prj.cpp:10]   --->   Operation 171 'call' 'ref_tmp_i_assign_6' <Predicate = true> <Delay = 2.13> <CoreType = "Generic">   --->   Generic Core
+ST_12 : Operation 172 [6/6] (2.13ns)   --->   "%ref_tmp_i_assign_5 = call i18 @reduce<ap_fixed<18, 8, 5, 3, 0>, 25, OpAdd<ap_fixed<18, 8, 5, 3, 0> > >, i18 %scores_75, i18 %scores_76, i18 %scores_77, i18 %scores_78, i18 %scores_79, i18 %scores_80, i18 %scores_81, i18 %scores_82, i18 %scores_83, i18 %scores_84, i18 %scores_85, i18 %scores_86, i18 %scores_87, i18 %scores_88, i18 %scores_89, i18 %scores_90, i18 %scores_91, i18 %scores_92, i18 %scores_93, i18 %scores_94, i18 %scores_95, i18 %scores_96, i18 %scores_97, i18 %scores_98, i18 %scores_99" [firmware/BDT.h:146->firmware/my_prj.cpp:10]   --->   Operation 172 'call' 'ref_tmp_i_assign_5' <Predicate = true> <Delay = 2.13> <CoreType = "Generic">   --->   Generic Core
+ST_12 : Operation 173 [6/6] (2.13ns)   --->   "%ref_tmp_i_assign_4 = call i18 @reduce<ap_fixed<18, 8, 5, 3, 0>, 25, OpAdd<ap_fixed<18, 8, 5, 3, 0> > >, i18 %scores_100, i18 %scores_101, i18 %scores_102, i18 %scores_103, i18 %scores_104, i18 %scores_105, i18 %scores_106, i18 %scores_107, i18 %scores_108, i18 %scores_109, i18 %scores_110, i18 %scores_111, i18 %scores_112, i18 %scores_113, i18 %scores_114, i18 %scores_115, i18 %scores_116, i18 %scores_117, i18 %scores_118, i18 %scores_119, i18 %scores_120, i18 %scores_121, i18 %scores_122, i18 %scores_123, i18 %scores_124" [firmware/BDT.h:146->firmware/my_prj.cpp:10]   --->   Operation 173 'call' 'ref_tmp_i_assign_4' <Predicate = true> <Delay = 2.13> <CoreType = "Generic">   --->   Generic Core
+
+State 13 <SV = 12> <Delay = 2.13>
+ST_13 : Operation 174 [5/6] (2.13ns)   --->   "%ref_tmp_i_assign_8 = call i18 @reduce<ap_fixed<18, 8, 5, 3, 0>, 25, OpAdd<ap_fixed<18, 8, 5, 3, 0> > >, i18 %scores, i18 %scores_1, i18 %scores_2, i18 %scores_3, i18 %scores_4, i18 %scores_5, i18 %scores_6, i18 %scores_7, i18 %scores_8, i18 %scores_9, i18 %scores_10, i18 %scores_11, i18 %scores_12, i18 %scores_13, i18 %scores_14, i18 %scores_15, i18 %scores_16, i18 %scores_17, i18 %scores_18, i18 %scores_19, i18 %scores_20, i18 %scores_21, i18 %scores_22, i18 %scores_23, i18 %scores_24" [firmware/BDT.h:146->firmware/my_prj.cpp:10]   --->   Operation 174 'call' 'ref_tmp_i_assign_8' <Predicate = true> <Delay = 2.13> <CoreType = "Generic">   --->   Generic Core
+ST_13 : Operation 175 [5/6] (2.13ns)   --->   "%ref_tmp_i_assign_7 = call i18 @reduce<ap_fixed<18, 8, 5, 3, 0>, 25, OpAdd<ap_fixed<18, 8, 5, 3, 0> > >, i18 %scores_25, i18 %scores_26, i18 %scores_27, i18 %scores_28, i18 %scores_29, i18 %scores_30, i18 %scores_31, i18 %scores_32, i18 %scores_33, i18 %scores_34, i18 %scores_35, i18 %scores_36, i18 %scores_37, i18 %scores_38, i18 %scores_39, i18 %scores_40, i18 %scores_41, i18 %scores_42, i18 %scores_43, i18 %scores_44, i18 %scores_45, i18 %scores_46, i18 %scores_47, i18 %scores_48, i18 %scores_49" [firmware/BDT.h:146->firmware/my_prj.cpp:10]   --->   Operation 175 'call' 'ref_tmp_i_assign_7' <Predicate = true> <Delay = 2.13> <CoreType = "Generic">   --->   Generic Core
+ST_13 : Operation 176 [5/6] (2.13ns)   --->   "%ref_tmp_i_assign_6 = call i18 @reduce<ap_fixed<18, 8, 5, 3, 0>, 25, OpAdd<ap_fixed<18, 8, 5, 3, 0> > >, i18 %scores_50, i18 %scores_51, i18 %scores_52, i18 %scores_53, i18 %scores_54, i18 %scores_55, i18 %scores_56, i18 %scores_57, i18 %scores_58, i18 %scores_59, i18 %scores_60, i18 %scores_61, i18 %scores_62, i18 %scores_63, i18 %scores_64, i18 %scores_65, i18 %scores_66, i18 %scores_67, i18 %scores_68, i18 %scores_69, i18 %scores_70, i18 %scores_71, i18 %scores_72, i18 %scores_73, i18 %scores_74" [firmware/BDT.h:146->firmware/my_prj.cpp:10]   --->   Operation 176 'call' 'ref_tmp_i_assign_6' <Predicate = true> <Delay = 2.13> <CoreType = "Generic">   --->   Generic Core
+ST_13 : Operation 177 [5/6] (2.13ns)   --->   "%ref_tmp_i_assign_5 = call i18 @reduce<ap_fixed<18, 8, 5, 3, 0>, 25, OpAdd<ap_fixed<18, 8, 5, 3, 0> > >, i18 %scores_75, i18 %scores_76, i18 %scores_77, i18 %scores_78, i18 %scores_79, i18 %scores_80, i18 %scores_81, i18 %scores_82, i18 %scores_83, i18 %scores_84, i18 %scores_85, i18 %scores_86, i18 %scores_87, i18 %scores_88, i18 %scores_89, i18 %scores_90, i18 %scores_91, i18 %scores_92, i18 %scores_93, i18 %scores_94, i18 %scores_95, i18 %scores_96, i18 %scores_97, i18 %scores_98, i18 %scores_99" [firmware/BDT.h:146->firmware/my_prj.cpp:10]   --->   Operation 177 'call' 'ref_tmp_i_assign_5' <Predicate = true> <Delay = 2.13> <CoreType = "Generic">   --->   Generic Core
+ST_13 : Operation 178 [5/6] (2.13ns)   --->   "%ref_tmp_i_assign_4 = call i18 @reduce<ap_fixed<18, 8, 5, 3, 0>, 25, OpAdd<ap_fixed<18, 8, 5, 3, 0> > >, i18 %scores_100, i18 %scores_101, i18 %scores_102, i18 %scores_103, i18 %scores_104, i18 %scores_105, i18 %scores_106, i18 %scores_107, i18 %scores_108, i18 %scores_109, i18 %scores_110, i18 %scores_111, i18 %scores_112, i18 %scores_113, i18 %scores_114, i18 %scores_115, i18 %scores_116, i18 %scores_117, i18 %scores_118, i18 %scores_119, i18 %scores_120, i18 %scores_121, i18 %scores_122, i18 %scores_123, i18 %scores_124" [firmware/BDT.h:146->firmware/my_prj.cpp:10]   --->   Operation 178 'call' 'ref_tmp_i_assign_4' <Predicate = true> <Delay = 2.13> <CoreType = "Generic">   --->   Generic Core
+
+State 14 <SV = 13> <Delay = 2.13>
+ST_14 : Operation 179 [4/6] (2.13ns)   --->   "%ref_tmp_i_assign_8 = call i18 @reduce<ap_fixed<18, 8, 5, 3, 0>, 25, OpAdd<ap_fixed<18, 8, 5, 3, 0> > >, i18 %scores, i18 %scores_1, i18 %scores_2, i18 %scores_3, i18 %scores_4, i18 %scores_5, i18 %scores_6, i18 %scores_7, i18 %scores_8, i18 %scores_9, i18 %scores_10, i18 %scores_11, i18 %scores_12, i18 %scores_13, i18 %scores_14, i18 %scores_15, i18 %scores_16, i18 %scores_17, i18 %scores_18, i18 %scores_19, i18 %scores_20, i18 %scores_21, i18 %scores_22, i18 %scores_23, i18 %scores_24" [firmware/BDT.h:146->firmware/my_prj.cpp:10]   --->   Operation 179 'call' 'ref_tmp_i_assign_8' <Predicate = true> <Delay = 2.13> <CoreType = "Generic">   --->   Generic Core
+ST_14 : Operation 180 [4/6] (2.13ns)   --->   "%ref_tmp_i_assign_7 = call i18 @reduce<ap_fixed<18, 8, 5, 3, 0>, 25, OpAdd<ap_fixed<18, 8, 5, 3, 0> > >, i18 %scores_25, i18 %scores_26, i18 %scores_27, i18 %scores_28, i18 %scores_29, i18 %scores_30, i18 %scores_31, i18 %scores_32, i18 %scores_33, i18 %scores_34, i18 %scores_35, i18 %scores_36, i18 %scores_37, i18 %scores_38, i18 %scores_39, i18 %scores_40, i18 %scores_41, i18 %scores_42, i18 %scores_43, i18 %scores_44, i18 %scores_45, i18 %scores_46, i18 %scores_47, i18 %scores_48, i18 %scores_49" [firmware/BDT.h:146->firmware/my_prj.cpp:10]   --->   Operation 180 'call' 'ref_tmp_i_assign_7' <Predicate = true> <Delay = 2.13> <CoreType = "Generic">   --->   Generic Core
+ST_14 : Operation 181 [4/6] (2.13ns)   --->   "%ref_tmp_i_assign_6 = call i18 @reduce<ap_fixed<18, 8, 5, 3, 0>, 25, OpAdd<ap_fixed<18, 8, 5, 3, 0> > >, i18 %scores_50, i18 %scores_51, i18 %scores_52, i18 %scores_53, i18 %scores_54, i18 %scores_55, i18 %scores_56, i18 %scores_57, i18 %scores_58, i18 %scores_59, i18 %scores_60, i18 %scores_61, i18 %scores_62, i18 %scores_63, i18 %scores_64, i18 %scores_65, i18 %scores_66, i18 %scores_67, i18 %scores_68, i18 %scores_69, i18 %scores_70, i18 %scores_71, i18 %scores_72, i18 %scores_73, i18 %scores_74" [firmware/BDT.h:146->firmware/my_prj.cpp:10]   --->   Operation 181 'call' 'ref_tmp_i_assign_6' <Predicate = true> <Delay = 2.13> <CoreType = "Generic">   --->   Generic Core
+ST_14 : Operation 182 [4/6] (2.13ns)   --->   "%ref_tmp_i_assign_5 = call i18 @reduce<ap_fixed<18, 8, 5, 3, 0>, 25, OpAdd<ap_fixed<18, 8, 5, 3, 0> > >, i18 %scores_75, i18 %scores_76, i18 %scores_77, i18 %scores_78, i18 %scores_79, i18 %scores_80, i18 %scores_81, i18 %scores_82, i18 %scores_83, i18 %scores_84, i18 %scores_85, i18 %scores_86, i18 %scores_87, i18 %scores_88, i18 %scores_89, i18 %scores_90, i18 %scores_91, i18 %scores_92, i18 %scores_93, i18 %scores_94, i18 %scores_95, i18 %scores_96, i18 %scores_97, i18 %scores_98, i18 %scores_99" [firmware/BDT.h:146->firmware/my_prj.cpp:10]   --->   Operation 182 'call' 'ref_tmp_i_assign_5' <Predicate = true> <Delay = 2.13> <CoreType = "Generic">   --->   Generic Core
+ST_14 : Operation 183 [4/6] (2.13ns)   --->   "%ref_tmp_i_assign_4 = call i18 @reduce<ap_fixed<18, 8, 5, 3, 0>, 25, OpAdd<ap_fixed<18, 8, 5, 3, 0> > >, i18 %scores_100, i18 %scores_101, i18 %scores_102, i18 %scores_103, i18 %scores_104, i18 %scores_105, i18 %scores_106, i18 %scores_107, i18 %scores_108, i18 %scores_109, i18 %scores_110, i18 %scores_111, i18 %scores_112, i18 %scores_113, i18 %scores_114, i18 %scores_115, i18 %scores_116, i18 %scores_117, i18 %scores_118, i18 %scores_119, i18 %scores_120, i18 %scores_121, i18 %scores_122, i18 %scores_123, i18 %scores_124" [firmware/BDT.h:146->firmware/my_prj.cpp:10]   --->   Operation 183 'call' 'ref_tmp_i_assign_4' <Predicate = true> <Delay = 2.13> <CoreType = "Generic">   --->   Generic Core
+
+State 15 <SV = 14> <Delay = 2.13>
+ST_15 : Operation 184 [3/6] (2.13ns)   --->   "%ref_tmp_i_assign_8 = call i18 @reduce<ap_fixed<18, 8, 5, 3, 0>, 25, OpAdd<ap_fixed<18, 8, 5, 3, 0> > >, i18 %scores, i18 %scores_1, i18 %scores_2, i18 %scores_3, i18 %scores_4, i18 %scores_5, i18 %scores_6, i18 %scores_7, i18 %scores_8, i18 %scores_9, i18 %scores_10, i18 %scores_11, i18 %scores_12, i18 %scores_13, i18 %scores_14, i18 %scores_15, i18 %scores_16, i18 %scores_17, i18 %scores_18, i18 %scores_19, i18 %scores_20, i18 %scores_21, i18 %scores_22, i18 %scores_23, i18 %scores_24" [firmware/BDT.h:146->firmware/my_prj.cpp:10]   --->   Operation 184 'call' 'ref_tmp_i_assign_8' <Predicate = true> <Delay = 2.13> <CoreType = "Generic">   --->   Generic Core
+ST_15 : Operation 185 [3/6] (2.13ns)   --->   "%ref_tmp_i_assign_7 = call i18 @reduce<ap_fixed<18, 8, 5, 3, 0>, 25, OpAdd<ap_fixed<18, 8, 5, 3, 0> > >, i18 %scores_25, i18 %scores_26, i18 %scores_27, i18 %scores_28, i18 %scores_29, i18 %scores_30, i18 %scores_31, i18 %scores_32, i18 %scores_33, i18 %scores_34, i18 %scores_35, i18 %scores_36, i18 %scores_37, i18 %scores_38, i18 %scores_39, i18 %scores_40, i18 %scores_41, i18 %scores_42, i18 %scores_43, i18 %scores_44, i18 %scores_45, i18 %scores_46, i18 %scores_47, i18 %scores_48, i18 %scores_49" [firmware/BDT.h:146->firmware/my_prj.cpp:10]   --->   Operation 185 'call' 'ref_tmp_i_assign_7' <Predicate = true> <Delay = 2.13> <CoreType = "Generic">   --->   Generic Core
+ST_15 : Operation 186 [3/6] (2.13ns)   --->   "%ref_tmp_i_assign_6 = call i18 @reduce<ap_fixed<18, 8, 5, 3, 0>, 25, OpAdd<ap_fixed<18, 8, 5, 3, 0> > >, i18 %scores_50, i18 %scores_51, i18 %scores_52, i18 %scores_53, i18 %scores_54, i18 %scores_55, i18 %scores_56, i18 %scores_57, i18 %scores_58, i18 %scores_59, i18 %scores_60, i18 %scores_61, i18 %scores_62, i18 %scores_63, i18 %scores_64, i18 %scores_65, i18 %scores_66, i18 %scores_67, i18 %scores_68, i18 %scores_69, i18 %scores_70, i18 %scores_71, i18 %scores_72, i18 %scores_73, i18 %scores_74" [firmware/BDT.h:146->firmware/my_prj.cpp:10]   --->   Operation 186 'call' 'ref_tmp_i_assign_6' <Predicate = true> <Delay = 2.13> <CoreType = "Generic">   --->   Generic Core
+ST_15 : Operation 187 [3/6] (2.13ns)   --->   "%ref_tmp_i_assign_5 = call i18 @reduce<ap_fixed<18, 8, 5, 3, 0>, 25, OpAdd<ap_fixed<18, 8, 5, 3, 0> > >, i18 %scores_75, i18 %scores_76, i18 %scores_77, i18 %scores_78, i18 %scores_79, i18 %scores_80, i18 %scores_81, i18 %scores_82, i18 %scores_83, i18 %scores_84, i18 %scores_85, i18 %scores_86, i18 %scores_87, i18 %scores_88, i18 %scores_89, i18 %scores_90, i18 %scores_91, i18 %scores_92, i18 %scores_93, i18 %scores_94, i18 %scores_95, i18 %scores_96, i18 %scores_97, i18 %scores_98, i18 %scores_99" [firmware/BDT.h:146->firmware/my_prj.cpp:10]   --->   Operation 187 'call' 'ref_tmp_i_assign_5' <Predicate = true> <Delay = 2.13> <CoreType = "Generic">   --->   Generic Core
+ST_15 : Operation 188 [3/6] (2.13ns)   --->   "%ref_tmp_i_assign_4 = call i18 @reduce<ap_fixed<18, 8, 5, 3, 0>, 25, OpAdd<ap_fixed<18, 8, 5, 3, 0> > >, i18 %scores_100, i18 %scores_101, i18 %scores_102, i18 %scores_103, i18 %scores_104, i18 %scores_105, i18 %scores_106, i18 %scores_107, i18 %scores_108, i18 %scores_109, i18 %scores_110, i18 %scores_111, i18 %scores_112, i18 %scores_113, i18 %scores_114, i18 %scores_115, i18 %scores_116, i18 %scores_117, i18 %scores_118, i18 %scores_119, i18 %scores_120, i18 %scores_121, i18 %scores_122, i18 %scores_123, i18 %scores_124" [firmware/BDT.h:146->firmware/my_prj.cpp:10]   --->   Operation 188 'call' 'ref_tmp_i_assign_4' <Predicate = true> <Delay = 2.13> <CoreType = "Generic">   --->   Generic Core
+
+State 16 <SV = 15> <Delay = 2.13>
+ST_16 : Operation 189 [2/6] (2.13ns)   --->   "%ref_tmp_i_assign_8 = call i18 @reduce<ap_fixed<18, 8, 5, 3, 0>, 25, OpAdd<ap_fixed<18, 8, 5, 3, 0> > >, i18 %scores, i18 %scores_1, i18 %scores_2, i18 %scores_3, i18 %scores_4, i18 %scores_5, i18 %scores_6, i18 %scores_7, i18 %scores_8, i18 %scores_9, i18 %scores_10, i18 %scores_11, i18 %scores_12, i18 %scores_13, i18 %scores_14, i18 %scores_15, i18 %scores_16, i18 %scores_17, i18 %scores_18, i18 %scores_19, i18 %scores_20, i18 %scores_21, i18 %scores_22, i18 %scores_23, i18 %scores_24" [firmware/BDT.h:146->firmware/my_prj.cpp:10]   --->   Operation 189 'call' 'ref_tmp_i_assign_8' <Predicate = true> <Delay = 2.13> <CoreType = "Generic">   --->   Generic Core
+ST_16 : Operation 190 [2/6] (2.13ns)   --->   "%ref_tmp_i_assign_7 = call i18 @reduce<ap_fixed<18, 8, 5, 3, 0>, 25, OpAdd<ap_fixed<18, 8, 5, 3, 0> > >, i18 %scores_25, i18 %scores_26, i18 %scores_27, i18 %scores_28, i18 %scores_29, i18 %scores_30, i18 %scores_31, i18 %scores_32, i18 %scores_33, i18 %scores_34, i18 %scores_35, i18 %scores_36, i18 %scores_37, i18 %scores_38, i18 %scores_39, i18 %scores_40, i18 %scores_41, i18 %scores_42, i18 %scores_43, i18 %scores_44, i18 %scores_45, i18 %scores_46, i18 %scores_47, i18 %scores_48, i18 %scores_49" [firmware/BDT.h:146->firmware/my_prj.cpp:10]   --->   Operation 190 'call' 'ref_tmp_i_assign_7' <Predicate = true> <Delay = 2.13> <CoreType = "Generic">   --->   Generic Core
+ST_16 : Operation 191 [2/6] (2.13ns)   --->   "%ref_tmp_i_assign_6 = call i18 @reduce<ap_fixed<18, 8, 5, 3, 0>, 25, OpAdd<ap_fixed<18, 8, 5, 3, 0> > >, i18 %scores_50, i18 %scores_51, i18 %scores_52, i18 %scores_53, i18 %scores_54, i18 %scores_55, i18 %scores_56, i18 %scores_57, i18 %scores_58, i18 %scores_59, i18 %scores_60, i18 %scores_61, i18 %scores_62, i18 %scores_63, i18 %scores_64, i18 %scores_65, i18 %scores_66, i18 %scores_67, i18 %scores_68, i18 %scores_69, i18 %scores_70, i18 %scores_71, i18 %scores_72, i18 %scores_73, i18 %scores_74" [firmware/BDT.h:146->firmware/my_prj.cpp:10]   --->   Operation 191 'call' 'ref_tmp_i_assign_6' <Predicate = true> <Delay = 2.13> <CoreType = "Generic">   --->   Generic Core
+ST_16 : Operation 192 [2/6] (2.13ns)   --->   "%ref_tmp_i_assign_5 = call i18 @reduce<ap_fixed<18, 8, 5, 3, 0>, 25, OpAdd<ap_fixed<18, 8, 5, 3, 0> > >, i18 %scores_75, i18 %scores_76, i18 %scores_77, i18 %scores_78, i18 %scores_79, i18 %scores_80, i18 %scores_81, i18 %scores_82, i18 %scores_83, i18 %scores_84, i18 %scores_85, i18 %scores_86, i18 %scores_87, i18 %scores_88, i18 %scores_89, i18 %scores_90, i18 %scores_91, i18 %scores_92, i18 %scores_93, i18 %scores_94, i18 %scores_95, i18 %scores_96, i18 %scores_97, i18 %scores_98, i18 %scores_99" [firmware/BDT.h:146->firmware/my_prj.cpp:10]   --->   Operation 192 'call' 'ref_tmp_i_assign_5' <Predicate = true> <Delay = 2.13> <CoreType = "Generic">   --->   Generic Core
+ST_16 : Operation 193 [2/6] (2.13ns)   --->   "%ref_tmp_i_assign_4 = call i18 @reduce<ap_fixed<18, 8, 5, 3, 0>, 25, OpAdd<ap_fixed<18, 8, 5, 3, 0> > >, i18 %scores_100, i18 %scores_101, i18 %scores_102, i18 %scores_103, i18 %scores_104, i18 %scores_105, i18 %scores_106, i18 %scores_107, i18 %scores_108, i18 %scores_109, i18 %scores_110, i18 %scores_111, i18 %scores_112, i18 %scores_113, i18 %scores_114, i18 %scores_115, i18 %scores_116, i18 %scores_117, i18 %scores_118, i18 %scores_119, i18 %scores_120, i18 %scores_121, i18 %scores_122, i18 %scores_123, i18 %scores_124" [firmware/BDT.h:146->firmware/my_prj.cpp:10]   --->   Operation 193 'call' 'ref_tmp_i_assign_4' <Predicate = true> <Delay = 2.13> <CoreType = "Generic">   --->   Generic Core
+
+State 17 <SV = 16> <Delay = 2.13>
+ST_17 : Operation 194 [1/1] (0.00ns)   --->   "%specpipeline_ln8 = specpipeline void @_ssdm_op_SpecPipeline, i32 4294967295, i32 0, i32 0, i32 0, void @empty_0" [firmware/my_prj.cpp:8]   --->   Operation 194 'specpipeline' 'specpipeline_ln8' <Predicate = true> <Delay = 0.00>
+ST_17 : Operation 195 [1/1] (0.00ns)   --->   "%spectopmodule_ln5 = spectopmodule void @_ssdm_op_SpecTopModule, void @empty_1" [firmware/my_prj.cpp:5]   --->   Operation 195 'spectopmodule' 'spectopmodule_ln5' <Predicate = true> <Delay = 0.00>
+ST_17 : Operation 196 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i18 %x_0"   --->   Operation 196 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_17 : Operation 197 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i18 %x_0, void @empty, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0, i32 0"   --->   Operation 197 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_17 : Operation 198 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i18 %x_1"   --->   Operation 198 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_17 : Operation 199 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i18 %x_1, void @empty, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0, i32 0"   --->   Operation 199 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_17 : Operation 200 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i18 %x_2"   --->   Operation 200 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_17 : Operation 201 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i18 %x_2, void @empty, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0, i32 0"   --->   Operation 201 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_17 : Operation 202 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i18 %x_3"   --->   Operation 202 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_17 : Operation 203 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i18 %x_3, void @empty, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0, i32 0"   --->   Operation 203 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_17 : Operation 204 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i18 %x_4"   --->   Operation 204 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_17 : Operation 205 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i18 %x_4, void @empty, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0, i32 0"   --->   Operation 205 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_17 : Operation 206 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i18 %x_5"   --->   Operation 206 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_17 : Operation 207 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i18 %x_5, void @empty, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0, i32 0"   --->   Operation 207 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_17 : Operation 208 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i18 %x_6"   --->   Operation 208 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_17 : Operation 209 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i18 %x_6, void @empty, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0, i32 0"   --->   Operation 209 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_17 : Operation 210 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i18 %x_7"   --->   Operation 210 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_17 : Operation 211 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i18 %x_7, void @empty, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0, i32 0"   --->   Operation 211 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_17 : Operation 212 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i18 %x_8"   --->   Operation 212 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_17 : Operation 213 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i18 %x_8, void @empty, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0, i32 0"   --->   Operation 213 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_17 : Operation 214 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i18 %x_9"   --->   Operation 214 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_17 : Operation 215 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i18 %x_9, void @empty, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0, i32 0"   --->   Operation 215 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_17 : Operation 216 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i18 %x_10"   --->   Operation 216 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_17 : Operation 217 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i18 %x_10, void @empty, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0, i32 0"   --->   Operation 217 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_17 : Operation 218 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i18 %x_11"   --->   Operation 218 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_17 : Operation 219 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i18 %x_11, void @empty, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0, i32 0"   --->   Operation 219 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_17 : Operation 220 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i18 %x_12"   --->   Operation 220 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_17 : Operation 221 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i18 %x_12, void @empty, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0, i32 0"   --->   Operation 221 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_17 : Operation 222 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i18 %x_13"   --->   Operation 222 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_17 : Operation 223 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i18 %x_13, void @empty, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0, i32 0"   --->   Operation 223 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_17 : Operation 224 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i18 %x_14"   --->   Operation 224 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_17 : Operation 225 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i18 %x_14, void @empty, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0, i32 0"   --->   Operation 225 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_17 : Operation 226 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i18 %x_15"   --->   Operation 226 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_17 : Operation 227 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i18 %x_15, void @empty, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0, i32 0"   --->   Operation 227 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_17 : Operation 228 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i18 %score_0"   --->   Operation 228 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_17 : Operation 229 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i18 %score_0, void @empty, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0, i32 0"   --->   Operation 229 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_17 : Operation 230 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i18 %score_1"   --->   Operation 230 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_17 : Operation 231 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i18 %score_1, void @empty, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0, i32 0"   --->   Operation 231 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_17 : Operation 232 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i18 %score_2"   --->   Operation 232 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_17 : Operation 233 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i18 %score_2, void @empty, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0, i32 0"   --->   Operation 233 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_17 : Operation 234 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i18 %score_3"   --->   Operation 234 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_17 : Operation 235 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i18 %score_3, void @empty, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0, i32 0"   --->   Operation 235 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_17 : Operation 236 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i18 %score_4"   --->   Operation 236 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_17 : Operation 237 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i18 %score_4, void @empty, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0, i32 0"   --->   Operation 237 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_17 : Operation 238 [1/6] (2.13ns)   --->   "%ref_tmp_i_assign_8 = call i18 @reduce<ap_fixed<18, 8, 5, 3, 0>, 25, OpAdd<ap_fixed<18, 8, 5, 3, 0> > >, i18 %scores, i18 %scores_1, i18 %scores_2, i18 %scores_3, i18 %scores_4, i18 %scores_5, i18 %scores_6, i18 %scores_7, i18 %scores_8, i18 %scores_9, i18 %scores_10, i18 %scores_11, i18 %scores_12, i18 %scores_13, i18 %scores_14, i18 %scores_15, i18 %scores_16, i18 %scores_17, i18 %scores_18, i18 %scores_19, i18 %scores_20, i18 %scores_21, i18 %scores_22, i18 %scores_23, i18 %scores_24" [firmware/BDT.h:146->firmware/my_prj.cpp:10]   --->   Operation 238 'call' 'ref_tmp_i_assign_8' <Predicate = true> <Delay = 2.13> <CoreType = "Generic">   --->   Generic Core
+ST_17 : Operation 239 [1/6] (2.13ns)   --->   "%ref_tmp_i_assign_7 = call i18 @reduce<ap_fixed<18, 8, 5, 3, 0>, 25, OpAdd<ap_fixed<18, 8, 5, 3, 0> > >, i18 %scores_25, i18 %scores_26, i18 %scores_27, i18 %scores_28, i18 %scores_29, i18 %scores_30, i18 %scores_31, i18 %scores_32, i18 %scores_33, i18 %scores_34, i18 %scores_35, i18 %scores_36, i18 %scores_37, i18 %scores_38, i18 %scores_39, i18 %scores_40, i18 %scores_41, i18 %scores_42, i18 %scores_43, i18 %scores_44, i18 %scores_45, i18 %scores_46, i18 %scores_47, i18 %scores_48, i18 %scores_49" [firmware/BDT.h:146->firmware/my_prj.cpp:10]   --->   Operation 239 'call' 'ref_tmp_i_assign_7' <Predicate = true> <Delay = 2.13> <CoreType = "Generic">   --->   Generic Core
+ST_17 : Operation 240 [1/6] (2.13ns)   --->   "%ref_tmp_i_assign_6 = call i18 @reduce<ap_fixed<18, 8, 5, 3, 0>, 25, OpAdd<ap_fixed<18, 8, 5, 3, 0> > >, i18 %scores_50, i18 %scores_51, i18 %scores_52, i18 %scores_53, i18 %scores_54, i18 %scores_55, i18 %scores_56, i18 %scores_57, i18 %scores_58, i18 %scores_59, i18 %scores_60, i18 %scores_61, i18 %scores_62, i18 %scores_63, i18 %scores_64, i18 %scores_65, i18 %scores_66, i18 %scores_67, i18 %scores_68, i18 %scores_69, i18 %scores_70, i18 %scores_71, i18 %scores_72, i18 %scores_73, i18 %scores_74" [firmware/BDT.h:146->firmware/my_prj.cpp:10]   --->   Operation 240 'call' 'ref_tmp_i_assign_6' <Predicate = true> <Delay = 2.13> <CoreType = "Generic">   --->   Generic Core
+ST_17 : Operation 241 [1/6] (2.13ns)   --->   "%ref_tmp_i_assign_5 = call i18 @reduce<ap_fixed<18, 8, 5, 3, 0>, 25, OpAdd<ap_fixed<18, 8, 5, 3, 0> > >, i18 %scores_75, i18 %scores_76, i18 %scores_77, i18 %scores_78, i18 %scores_79, i18 %scores_80, i18 %scores_81, i18 %scores_82, i18 %scores_83, i18 %scores_84, i18 %scores_85, i18 %scores_86, i18 %scores_87, i18 %scores_88, i18 %scores_89, i18 %scores_90, i18 %scores_91, i18 %scores_92, i18 %scores_93, i18 %scores_94, i18 %scores_95, i18 %scores_96, i18 %scores_97, i18 %scores_98, i18 %scores_99" [firmware/BDT.h:146->firmware/my_prj.cpp:10]   --->   Operation 241 'call' 'ref_tmp_i_assign_5' <Predicate = true> <Delay = 2.13> <CoreType = "Generic">   --->   Generic Core
+ST_17 : Operation 242 [1/6] (2.13ns)   --->   "%ref_tmp_i_assign_4 = call i18 @reduce<ap_fixed<18, 8, 5, 3, 0>, 25, OpAdd<ap_fixed<18, 8, 5, 3, 0> > >, i18 %scores_100, i18 %scores_101, i18 %scores_102, i18 %scores_103, i18 %scores_104, i18 %scores_105, i18 %scores_106, i18 %scores_107, i18 %scores_108, i18 %scores_109, i18 %scores_110, i18 %scores_111, i18 %scores_112, i18 %scores_113, i18 %scores_114, i18 %scores_115, i18 %scores_116, i18 %scores_117, i18 %scores_118, i18 %scores_119, i18 %scores_120, i18 %scores_121, i18 %scores_122, i18 %scores_123, i18 %scores_124" [firmware/BDT.h:146->firmware/my_prj.cpp:10]   --->   Operation 242 'call' 'ref_tmp_i_assign_4' <Predicate = true> <Delay = 2.13> <CoreType = "Generic">   --->   Generic Core
+ST_17 : Operation 243 [1/1] (0.00ns)   --->   "%write_ln150 = write void @_ssdm_op_Write.ap_auto.i18P0A, i18 %score_0, i18 %ref_tmp_i_assign_8" [firmware/BDT.h:150->firmware/my_prj.cpp:10]   --->   Operation 243 'write' 'write_ln150' <Predicate = true> <Delay = 0.00>
+ST_17 : Operation 244 [1/1] (0.00ns)   --->   "%write_ln150 = write void @_ssdm_op_Write.ap_auto.i18P0A, i18 %score_1, i18 %ref_tmp_i_assign_7" [firmware/BDT.h:150->firmware/my_prj.cpp:10]   --->   Operation 244 'write' 'write_ln150' <Predicate = true> <Delay = 0.00>
+ST_17 : Operation 245 [1/1] (0.00ns)   --->   "%write_ln150 = write void @_ssdm_op_Write.ap_auto.i18P0A, i18 %score_2, i18 %ref_tmp_i_assign_6" [firmware/BDT.h:150->firmware/my_prj.cpp:10]   --->   Operation 245 'write' 'write_ln150' <Predicate = true> <Delay = 0.00>
+ST_17 : Operation 246 [1/1] (0.00ns)   --->   "%write_ln150 = write void @_ssdm_op_Write.ap_auto.i18P0A, i18 %score_3, i18 %ref_tmp_i_assign_5" [firmware/BDT.h:150->firmware/my_prj.cpp:10]   --->   Operation 246 'write' 'write_ln150' <Predicate = true> <Delay = 0.00>
+ST_17 : Operation 247 [1/1] (0.00ns)   --->   "%write_ln150 = write void @_ssdm_op_Write.ap_auto.i18P0A, i18 %score_4, i18 %ref_tmp_i_assign_4" [firmware/BDT.h:150->firmware/my_prj.cpp:10]   --->   Operation 247 'write' 'write_ln150' <Predicate = true> <Delay = 0.00>
+ST_17 : Operation 248 [1/1] (0.00ns)   --->   "%ret_ln11 = ret" [firmware/my_prj.cpp:11]   --->   Operation 248 'ret' 'ret_ln11' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 5.000ns, clock uncertainty: 1.350ns.
+
+ <State 1>: 3.114ns
+The critical path consists of the following:
+	wire read operation ('x_0_read') on port 'x_0' [66]  (0.000 ns)
+	'call' operation 2250 bit ('call_ret', firmware/BDT.h:139->firmware/my_prj.cpp:10) to 'tree_scores' [81]  (3.114 ns)
+
+ <State 2>: 3.645ns
+The critical path consists of the following:
+	'call' operation 2250 bit ('call_ret', firmware/BDT.h:139->firmware/my_prj.cpp:10) to 'tree_scores' [81]  (3.645 ns)
+
+ <State 3>: 3.645ns
+The critical path consists of the following:
+	'call' operation 2250 bit ('call_ret', firmware/BDT.h:139->firmware/my_prj.cpp:10) to 'tree_scores' [81]  (3.645 ns)
+
+ <State 4>: 3.645ns
+The critical path consists of the following:
+	'call' operation 2250 bit ('call_ret', firmware/BDT.h:139->firmware/my_prj.cpp:10) to 'tree_scores' [81]  (3.645 ns)
+
+ <State 5>: 3.645ns
+The critical path consists of the following:
+	'call' operation 2250 bit ('call_ret', firmware/BDT.h:139->firmware/my_prj.cpp:10) to 'tree_scores' [81]  (3.645 ns)
+
+ <State 6>: 3.645ns
+The critical path consists of the following:
+	'call' operation 2250 bit ('call_ret', firmware/BDT.h:139->firmware/my_prj.cpp:10) to 'tree_scores' [81]  (3.645 ns)
+
+ <State 7>: 3.645ns
+The critical path consists of the following:
+	'call' operation 2250 bit ('call_ret', firmware/BDT.h:139->firmware/my_prj.cpp:10) to 'tree_scores' [81]  (3.645 ns)
+
+ <State 8>: 3.645ns
+The critical path consists of the following:
+	'call' operation 2250 bit ('call_ret', firmware/BDT.h:139->firmware/my_prj.cpp:10) to 'tree_scores' [81]  (3.645 ns)
+
+ <State 9>: 3.645ns
+The critical path consists of the following:
+	'call' operation 2250 bit ('call_ret', firmware/BDT.h:139->firmware/my_prj.cpp:10) to 'tree_scores' [81]  (3.645 ns)
+
+ <State 10>: 3.645ns
+The critical path consists of the following:
+	'call' operation 2250 bit ('call_ret', firmware/BDT.h:139->firmware/my_prj.cpp:10) to 'tree_scores' [81]  (3.645 ns)
+
+ <State 11>: 3.205ns
+The critical path consists of the following:
+	'call' operation 2250 bit ('call_ret', firmware/BDT.h:139->firmware/my_prj.cpp:10) to 'tree_scores' [81]  (3.205 ns)
+
+ <State 12>: 2.136ns
+The critical path consists of the following:
+	'call' operation 18 bit ('ref_tmp_i_assign_8', firmware/BDT.h:146->firmware/my_prj.cpp:10) to 'reduce<ap_fixed<18, 8, 5, 3, 0>, 25, OpAdd<ap_fixed<18, 8, 5, 3, 0> > >' [207]  (2.136 ns)
+
+ <State 13>: 2.136ns
+The critical path consists of the following:
+	'call' operation 18 bit ('ref_tmp_i_assign_8', firmware/BDT.h:146->firmware/my_prj.cpp:10) to 'reduce<ap_fixed<18, 8, 5, 3, 0>, 25, OpAdd<ap_fixed<18, 8, 5, 3, 0> > >' [207]  (2.136 ns)
+
+ <State 14>: 2.136ns
+The critical path consists of the following:
+	'call' operation 18 bit ('ref_tmp_i_assign_8', firmware/BDT.h:146->firmware/my_prj.cpp:10) to 'reduce<ap_fixed<18, 8, 5, 3, 0>, 25, OpAdd<ap_fixed<18, 8, 5, 3, 0> > >' [207]  (2.136 ns)
+
+ <State 15>: 2.136ns
+The critical path consists of the following:
+	'call' operation 18 bit ('ref_tmp_i_assign_8', firmware/BDT.h:146->firmware/my_prj.cpp:10) to 'reduce<ap_fixed<18, 8, 5, 3, 0>, 25, OpAdd<ap_fixed<18, 8, 5, 3, 0> > >' [207]  (2.136 ns)
+
+ <State 16>: 2.136ns
+The critical path consists of the following:
+	'call' operation 18 bit ('ref_tmp_i_assign_8', firmware/BDT.h:146->firmware/my_prj.cpp:10) to 'reduce<ap_fixed<18, 8, 5, 3, 0>, 25, OpAdd<ap_fixed<18, 8, 5, 3, 0> > >' [207]  (2.136 ns)
+
+ <State 17>: 2.136ns
+The critical path consists of the following:
+	'call' operation 18 bit ('ref_tmp_i_assign_8', firmware/BDT.h:146->firmware/my_prj.cpp:10) to 'reduce<ap_fixed<18, 8, 5, 3, 0>, 25, OpAdd<ap_fixed<18, 8, 5, 3, 0> > >' [207]  (2.136 ns)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+	State 3
+	State 4
+	State 5
+	State 6
+	State 7
+	State 8
+	State 9
+	State 10
+	State 11
+	State 12
+	State 13
+	State 14
+	State 15
+	State 16
+	State 17
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

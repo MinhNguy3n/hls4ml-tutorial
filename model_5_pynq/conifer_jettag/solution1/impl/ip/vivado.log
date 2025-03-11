@@ -1,0 +1,58 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Tue Mar 11 16:23:48 2025
+# Process ID         : 123361
+# Current directory  : /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_5_pynq/conifer_jettag/solution1/impl/ip
+# Command line       : vivado -notrace -mode batch -source run_ippack.tcl
+# Log file           : /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_5_pynq/conifer_jettag/solution1/impl/ip/vivado.log
+# Journal file       : /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_5_pynq/conifer_jettag/solution1/impl/ip/vivado.jou
+# Running On         : minhLenovo
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 22.04.5 LTS
+# Processor Detail   : AMD Ryzen 7 5800H with Radeon Graphics
+# CPU Frequency      : 3416.260 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 16628 MB
+# Swap memory        : 24192 MB
+# Total Virtual      : 40821 MB
+# Available Virtual  : 19510 MB
+#-----------------------------------------------------------
+Sourcing tcl script '/home/minh/.Xilinx/Vivado/2024.2/Vivado_init.tcl'
+Sourcing tcl script '/home/minh/.Xilinx/Vivado/Vivado_init.tcl'
+INFO: [Common 17-1463] Init.tcl in /home/minh/.Xilinx/Vivado/2024.2/init.tcl is not used. Vivado_init.tcl is already sourced.
+INFO: [Common 17-1463] Init.tcl in /home/minh/.Xilinx/Vivado/init.tcl is not used. Vivado_init.tcl is already sourced.
+source run_ippack.tcl -notrace
+INFO: calling package_hls_ip ip_types=vitis sysgen json_file=/home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_5_pynq/conifer_jettag/solution1/solution1_data.json outdir=/home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_5_pynq/conifer_jettag/solution1/impl/ip srcdir=/home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_5_pynq/conifer_jettag/solution1 sort_interfaces_ports=false
+INFO: Copied 1 ipmisc file(s) to /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_5_pynq/conifer_jettag/solution1/impl/ip/misc
+INFO: Copied 264 verilog file(s) to /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_5_pynq/conifer_jettag/solution1/impl/ip/hdl/verilog
+INFO: Copied 264 vhdl file(s) to /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_5_pynq/conifer_jettag/solution1/impl/ip/hdl/vhdl
+INFO: Copied 10 swdriver file(s) to /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_5_pynq/conifer_jettag/solution1/impl/ip/drivers
+Generating 1 subcores in /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_5_pynq/conifer_jettag/solution1/impl/ip/hdl/ip.tmp:
+impl/misc/conifer_jettag_accelerator_fpext_32ns_64_4_no_dsp_1_ip.tcl
+INFO: Using COE_DIR=/home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_5_pynq/conifer_jettag/solution1/impl/ip/hdl/verilog
+INFO: Generating conifer_jettag_accelerator_fpext_32ns_64_4_no_dsp_1_ip via file impl/misc/conifer_jettag_accelerator_fpext_32ns_64_4_no_dsp_1_ip.tcl
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2024.2/data/ip'.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'conifer_jettag_accelerator_fpext_32ns_64_4_no_dsp_1_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'conifer_jettag_accelerator_fpext_32ns_64_4_no_dsp_1_ip'...
+INFO: Done generating conifer_jettag_accelerator_fpext_32ns_64_4_no_dsp_1_ip via file impl/misc/conifer_jettag_accelerator_fpext_32ns_64_4_no_dsp_1_ip.tcl
+INFO: Import ports from HDL: /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_5_pynq/conifer_jettag/solution1/impl/ip/hdl/vhdl/conifer_jettag_accelerator.vhd (conifer_jettag_accelerator)
+INFO: Add axi4lite interface s_axi_control
+INFO: Add clock interface ap_clk
+INFO: Add reset interface ap_rst_n
+INFO: Add interrupt interface interrupt
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2024.2/data/ip'.
+INFO: Add axi4full interface m_axi_gmem0
+INFO: Calling post_process_vitis to specialize IP
+INFO: Calling post_process_sysgen to specialize IP
+Generating sysgen info xml from json file
+INFO: Created IP /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_5_pynq/conifer_jettag/solution1/impl/ip/component.xml
+INFO: Created IP archive /home/minh/Documents/UTU-Doctorate/control_theory/hls4ml-tutorial/model_5_pynq/conifer_jettag/solution1/impl/ip/cern_ch_conifer_conifer_jettag_accelerator_1_5.zip
+INFO: [Common 17-206] Exiting Vivado at Tue Mar 11 16:25:04 2025...

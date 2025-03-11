@@ -1,0 +1,102 @@
+{
+  "0": {
+    "basicblocks": 1,
+    "calls": "6 4 3 5 7 2 1",
+    "file": "myproject.cpp",
+    "fileloc": 7,
+    "instructions": 702,
+    "loads": {
+      "L": 113,
+      "T": 1
+    },
+    "name": "myproject",
+    "stores": {
+      "T": 5
+    },
+    "total_instructions": 5297
+  },
+  "1": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "nnet_dense_latency.h",
+    "fileloc": 13,
+    "instructions": 468,
+    "name": "dense_latency<ap_ufixed<9, 7, AP_TRN, AP_WRAP, 0>, ap_fixed<12, 6, AP_TRN, AP_WRAP, 0>, config18>",
+    "stores": {
+      "L": 5
+    },
+    "total_instructions": 468
+  },
+  "2": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "myproject.cpp",
+    "fileloc": 0,
+    "instructions": 50,
+    "name": "_Z9myprojectP8ap_fixedILi13ELi5EL9ap_q_mode5EL9ap_o_mode3ELi0EEPS_ILi12ELi6ELS0_5ELS1_3ELi0EE_",
+    "stores": {
+      "L": 12
+    },
+    "total_instructions": 50
+  },
+  "3": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "myproject.cpp",
+    "fileloc": 0,
+    "instructions": 1704,
+    "name": "_Z9myprojectP8ap_fixedILi13ELi5EL9ap_q_mode5EL9ap_o_mode3ELi0EEPS_ILi12ELi6ELS0_5ELS1_3ELi0EE_",
+    "stores": {
+      "L": 13
+    },
+    "total_instructions": 1704
+  },
+  "4": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "myproject.cpp",
+    "fileloc": 0,
+    "instructions": 118,
+    "name": "_Z9myprojectP8ap_fixedILi13ELi5EL9ap_q_mode5EL9ap_o_mode3ELi0EEPS_ILi12ELi6ELS0_5ELS1_3ELi0EE_",
+    "stores": {
+      "L": 29
+    },
+    "total_instructions": 118
+  },
+  "5": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "myproject.cpp",
+    "fileloc": 0,
+    "instructions": 54,
+    "name": "_Z9myprojectP8ap_fixedILi13ELi5EL9ap_q_mode5EL9ap_o_mode3ELi0EEPS_ILi12ELi6ELS0_5ELS1_3ELi0EE_",
+    "stores": {
+      "L": 13
+    },
+    "total_instructions": 54
+  },
+  "6": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "myproject.cpp",
+    "fileloc": 0,
+    "instructions": 1942,
+    "name": "_Z9myprojectP8ap_fixedILi13ELi5EL9ap_q_mode5EL9ap_o_mode3ELi0EEPS_ILi12ELi6ELS0_5ELS1_3ELi0EE_",
+    "stores": {
+      "L": 29
+    },
+    "total_instructions": 1942
+  },
+  "7": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "myproject.cpp",
+    "fileloc": 0,
+    "instructions": 259,
+    "name": "_Z9myprojectP8ap_fixedILi13ELi5EL9ap_q_mode5EL9ap_o_mode3ELi0EEPS_ILi12ELi6ELS0_5ELS1_3ELi0EE_",
+    "stores": {
+      "L": 12
+    },
+    "total_instructions": 259
+  }
+}

@@ -1,0 +1,1959 @@
+{
+  "0": {
+    "basicblocks": 24,
+    "calls": "121 35 9 9 9 9 9 59",
+    "file": "conifer_jettag.cpp",
+    "fileloc": 25,
+    "instructions": 825,
+    "loads": {
+      "L": 130
+    },
+    "name": "conifer_jettag_accelerator",
+    "stores": {
+      "L": 15,
+      "T": 2
+    },
+    "total_instructions": 23915
+  },
+  "1": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 169,
+    "loads": {
+      "L": 10
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 169
+  },
+  "10": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 171,
+    "loads": {
+      "L": 12
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 171
+  },
+  "100": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 157,
+    "loads": {
+      "L": 8
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 157
+  },
+  "101": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 168,
+    "loads": {
+      "L": 9
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 168
+  },
+  "102": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 171,
+    "loads": {
+      "L": 12
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 171
+  },
+  "103": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 151,
+    "loads": {
+      "L": 10
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 151
+  },
+  "104": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 168,
+    "loads": {
+      "L": 9
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 168
+  },
+  "105": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 172,
+    "loads": {
+      "L": 13
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 172
+  },
+  "106": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 167,
+    "loads": {
+      "L": 13
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 167
+  },
+  "107": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 169,
+    "loads": {
+      "L": 10
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 169
+  },
+  "108": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 168,
+    "loads": {
+      "L": 10
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 168
+  },
+  "109": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 167,
+    "loads": {
+      "L": 11
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 167
+  },
+  "11": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 168,
+    "loads": {
+      "L": 9
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 168
+  },
+  "110": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 172,
+    "loads": {
+      "L": 13
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 172
+  },
+  "111": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 170,
+    "loads": {
+      "L": 11
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 170
+  },
+  "112": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 171,
+    "loads": {
+      "L": 12
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 171
+  },
+  "113": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 171,
+    "loads": {
+      "L": 12
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 171
+  },
+  "114": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 170,
+    "loads": {
+      "L": 11
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 170
+  },
+  "115": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 169,
+    "loads": {
+      "L": 10
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 169
+  },
+  "116": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 169,
+    "loads": {
+      "L": 11
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 169
+  },
+  "117": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 173,
+    "loads": {
+      "L": 14
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 173
+  },
+  "118": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 168,
+    "loads": {
+      "L": 9
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 168
+  },
+  "119": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 165,
+    "loads": {
+      "L": 14
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 165
+  },
+  "12": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 164,
+    "loads": {
+      "L": 13
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 164
+  },
+  "120": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 167,
+    "loads": {
+      "L": 12
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 167
+  },
+  "121": {
+    "basicblocks": 97,
+    "calls": "",
+    "file": "conifer_jettag.cpp",
+    "fileloc": 13,
+    "instructions": 728,
+    "name": "copy_input",
+    "stores": {
+      "L": 16
+    },
+    "total_instructions": 728
+  },
+  "122": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 169,
+    "loads": {
+      "L": 10
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 169
+  },
+  "123": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 172,
+    "loads": {
+      "L": 14
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 172
+  },
+  "124": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 169,
+    "loads": {
+      "L": 13
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 169
+  },
+  "125": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 171,
+    "loads": {
+      "L": 12
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 171
+  },
+  "126": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 171,
+    "loads": {
+      "L": 13
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 171
+  },
+  "127": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 172,
+    "loads": {
+      "L": 13
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 172
+  },
+  "128": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 170,
+    "loads": {
+      "L": 11
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 170
+  },
+  "129": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 20,
+    "instructions": 92,
+    "name": "reduce<ap_fixed<18, 8, AP_TRN, AP_WRAP, 0>, 16, BDT::OpAdd<ap_fixed<18, 8, AP_TRN, AP_WRAP, 0> > >",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 92
+  },
+  "13": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 167,
+    "loads": {
+      "L": 8
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 167
+  },
+  "130": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 169,
+    "loads": {
+      "L": 11
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 169
+  },
+  "14": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 167,
+    "loads": {
+      "L": 10
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 167
+  },
+  "15": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 170,
+    "loads": {
+      "L": 12
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 170
+  },
+  "16": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 152,
+    "loads": {
+      "L": 12
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 152
+  },
+  "17": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 171,
+    "loads": {
+      "L": 12
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 171
+  },
+  "18": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 165,
+    "loads": {
+      "L": 9
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 165
+  },
+  "19": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 170,
+    "loads": {
+      "L": 11
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 170
+  },
+  "2": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 171,
+    "loads": {
+      "L": 12
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 171
+  },
+  "20": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 127,
+    "loads": {
+      "L": 11
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 127
+  },
+  "21": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 171,
+    "loads": {
+      "L": 12
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 171
+  },
+  "22": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 170,
+    "loads": {
+      "L": 11
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 170
+  },
+  "23": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 171,
+    "loads": {
+      "L": 12
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 171
+  },
+  "24": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 170,
+    "loads": {
+      "L": 12
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 170
+  },
+  "25": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 171,
+    "loads": {
+      "L": 12
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 171
+  },
+  "26": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 161,
+    "loads": {
+      "L": 10
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 161
+  },
+  "27": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 168,
+    "loads": {
+      "L": 9
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 168
+  },
+  "28": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 162,
+    "loads": {
+      "L": 5
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 162
+  },
+  "29": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 167,
+    "loads": {
+      "L": 8
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 167
+  },
+  "3": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 166,
+    "loads": {
+      "L": 10
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 166
+  },
+  "30": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 169,
+    "loads": {
+      "L": 10
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 169
+  },
+  "31": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 169,
+    "loads": {
+      "L": 13
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 169
+  },
+  "32": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 170,
+    "loads": {
+      "L": 11
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 170
+  },
+  "33": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 168,
+    "loads": {
+      "L": 9
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 168
+  },
+  "34": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 170,
+    "loads": {
+      "L": 11
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 170
+  },
+  "35": {
+    "basicblocks": 1,
+    "calls": "28 115 86 71 75 85 60 29 13 93 101 82 45 46 47 128 22 114 98 111 87 78 1 104 122 99 62 89 21 79 81 10 68 84 63 14 112 105 83 130 49 24 73 11 118 36 54 107 43 88 34 55 103 127 25 126 48 15 113 4 66 2 69 42 109 94 123 116 44 72 77 96 20 17 124 53 18 120 64 30 80 70 102 90 12 91 67 50 41 6 106 95 52 37 3 61 40 110 65 76 27 19 31 7 119 74 108 51 26 32 33 58 100 23 8 5 97 92 38 125 117 39 56 57 16",
+    "file": "BDT.cpp",
+    "fileloc": 5,
+    "instructions": 501,
+    "loads": {
+      "L": 125
+    },
+    "name": "tree_scores",
+    "stores": {
+      "L": 125
+    },
+    "total_instructions": 21314
+  },
+  "36": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 166,
+    "loads": {
+      "L": 7
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 166
+  },
+  "37": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 152,
+    "loads": {
+      "L": 11
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 152
+  },
+  "38": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 166,
+    "loads": {
+      "L": 10
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 166
+  },
+  "39": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 173,
+    "loads": {
+      "L": 14
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 173
+  },
+  "4": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 169,
+    "loads": {
+      "L": 10
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 169
+  },
+  "40": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 170,
+    "loads": {
+      "L": 14
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 170
+  },
+  "41": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 173,
+    "loads": {
+      "L": 14
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 173
+  },
+  "42": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 171,
+    "loads": {
+      "L": 12
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 171
+  },
+  "43": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 169,
+    "loads": {
+      "L": 11
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 169
+  },
+  "44": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 167,
+    "loads": {
+      "L": 8
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 167
+  },
+  "45": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 168,
+    "loads": {
+      "L": 9
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 168
+  },
+  "46": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 163,
+    "loads": {
+      "L": 9
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 163
+  },
+  "47": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 167,
+    "loads": {
+      "L": 9
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 167
+  },
+  "48": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 170,
+    "loads": {
+      "L": 12
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 170
+  },
+  "49": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 168,
+    "loads": {
+      "L": 10
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 168
+  },
+  "5": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 155,
+    "loads": {
+      "L": 14
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 155
+  },
+  "50": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 169,
+    "loads": {
+      "L": 10
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 169
+  },
+  "51": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 169,
+    "loads": {
+      "L": 10
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 169
+  },
+  "52": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 169,
+    "loads": {
+      "L": 10
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 169
+  },
+  "53": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 170,
+    "loads": {
+      "L": 13
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 170
+  },
+  "54": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 171,
+    "loads": {
+      "L": 13
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 171
+  },
+  "55": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 172,
+    "loads": {
+      "L": 13
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 172
+  },
+  "56": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 167,
+    "loads": {
+      "L": 11
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 167
+  },
+  "57": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 171,
+    "loads": {
+      "L": 12
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 171
+  },
+  "58": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 171,
+    "loads": {
+      "L": 12
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 171
+  },
+  "59": {
+    "basicblocks": 46,
+    "calls": "",
+    "file": "conifer_jettag.cpp",
+    "fileloc": 19,
+    "instructions": 293,
+    "loads": {
+      "L": 5
+    },
+    "name": "copy_output",
+    "total_instructions": 293
+  },
+  "6": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 141,
+    "loads": {
+      "L": 10
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 141
+  },
+  "60": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 172,
+    "loads": {
+      "L": 13
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 172
+  },
+  "61": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 141,
+    "loads": {
+      "L": 12
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 141
+  },
+  "62": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 171,
+    "loads": {
+      "L": 12
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 171
+  },
+  "63": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 168,
+    "loads": {
+      "L": 9
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 168
+  },
+  "64": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 171,
+    "loads": {
+      "L": 13
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 171
+  },
+  "65": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 168,
+    "loads": {
+      "L": 12
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 168
+  },
+  "66": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 171,
+    "loads": {
+      "L": 13
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 171
+  },
+  "67": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 159,
+    "loads": {
+      "L": 13
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 159
+  },
+  "68": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 170,
+    "loads": {
+      "L": 11
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 170
+  },
+  "69": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 171,
+    "loads": {
+      "L": 12
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 171
+  },
+  "7": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 170,
+    "loads": {
+      "L": 11
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 170
+  },
+  "70": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 159,
+    "loads": {
+      "L": 13
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 159
+  },
+  "71": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 165,
+    "loads": {
+      "L": 7
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 165
+  },
+  "72": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 173,
+    "loads": {
+      "L": 14
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 173
+  },
+  "73": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 166,
+    "loads": {
+      "L": 9
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 166
+  },
+  "74": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 169,
+    "loads": {
+      "L": 10
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 169
+  },
+  "75": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 162,
+    "loads": {
+      "L": 4
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 162
+  },
+  "76": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 165,
+    "loads": {
+      "L": 14
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 165
+  },
+  "77": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 166,
+    "loads": {
+      "L": 7
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 166
+  },
+  "78": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 168,
+    "loads": {
+      "L": 10
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 168
+  },
+  "79": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 168,
+    "loads": {
+      "L": 10
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 168
+  },
+  "8": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 160,
+    "loads": {
+      "L": 12
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 160
+  },
+  "80": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 169,
+    "loads": {
+      "L": 13
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 169
+  },
+  "81": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 171,
+    "loads": {
+      "L": 12
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 171
+  },
+  "82": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 170,
+    "loads": {
+      "L": 11
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 170
+  },
+  "83": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 169,
+    "loads": {
+      "L": 10
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 169
+  },
+  "84": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 170,
+    "loads": {
+      "L": 11
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 170
+  },
+  "85": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 165,
+    "loads": {
+      "L": 6
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 165
+  },
+  "86": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 166,
+    "loads": {
+      "L": 7
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 166
+  },
+  "87": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 167,
+    "loads": {
+      "L": 8
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 167
+  },
+  "88": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 156,
+    "loads": {
+      "L": 11
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 156
+  },
+  "89": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 164,
+    "loads": {
+      "L": 8
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 164
+  },
+  "9": {
+    "basicblocks": 1,
+    "calls": "129",
+    "file": "BDT.h",
+    "fileloc": 20,
+    "instructions": 59,
+    "loads": {
+      "L": 1
+    },
+    "name": "reduce<ap_fixed<18, 8, AP_TRN, AP_WRAP, 0>, 25, BDT::OpAdd<ap_fixed<18, 8, AP_TRN, AP_WRAP, 0> > >",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 151
+  },
+  "90": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 168,
+    "loads": {
+      "L": 13
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 168
+  },
+  "91": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 170,
+    "loads": {
+      "L": 11
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 170
+  },
+  "92": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 149,
+    "loads": {
+      "L": 13
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 149
+  },
+  "93": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 165,
+    "loads": {
+      "L": 9
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 165
+  },
+  "94": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 170,
+    "loads": {
+      "L": 14
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 170
+  },
+  "95": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 171,
+    "loads": {
+      "L": 12
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 171
+  },
+  "96": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 128,
+    "loads": {
+      "L": 12
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 128
+  },
+  "97": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 161,
+    "loads": {
+      "L": 12
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 161
+  },
+  "98": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 166,
+    "loads": {
+      "L": 10
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 166
+  },
+  "99": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "BDT.h",
+    "fileloc": 53,
+    "instructions": 167,
+    "loads": {
+      "L": 8
+    },
+    "name": "decision_function",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 167
+  }
+}
